@@ -136,6 +136,8 @@ The project demonstration covers the complete embedded workflow, including:
 * WebSocket telemetry
 * AI pipeline development and validation
 
+![Tasklist](./aeromesh_media/Screenshot%202026-08-08%20164502.png)
+
 ### Firmware Topology
 
 The firmware is structured around sensor acquisition, motion processing, event detection, wireless communication, and telemetry.
@@ -158,9 +160,14 @@ Motion Processing
              └──► WebSocket Telemetry
 ```
 
+![Firmware Topology](./aeromesh_media/firmware_topology.png)
+
 ### Hardware Setup
 
 The MPU6050 is connected to the ESP32 through the I2C interface. The RGB LED is connected to the configured GPIO and provides local system feedback.
+
+![Working Setup 1](./aeromesh_media/IMG_20260808_162942865_HDR_AE.jpg)
+![Working Setup 2](./aeromesh_media/IMG_20260808_164841109_HDR_AE.jpg)
 
 ## Videos
 
