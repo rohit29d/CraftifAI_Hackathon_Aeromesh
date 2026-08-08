@@ -3,6 +3,7 @@ set(EI_SOURCES
 )
 file(GLOB_RECURSE EI_CPP_SOURCES
     "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.cpp"
+    "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.cc"
     "${CMAKE_CURRENT_LIST_DIR}/tflite-model/*.cpp"
 )
 file(GLOB_RECURSE EI_C_SOURCES
@@ -26,10 +27,15 @@ idf_component_register(
     REQUIRES freertos log esp_timer esp_common
 )
 
-target_compile_definitions(${COMPONENT_LIB} PUBLIC EI_PORTING_ESPRESSIF=1 EIDSP_USE_ESP_DSP=0 EIDSP_USE_CMSIS_DSP=0 CONFIG_DSP_MAX_FFT_SIZE=256)
-target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-deprecated-declarations -Wno-error=deprecated-declarations)
-
-set_source_files_properties(
-    "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float/dsps_fft2r_fc32_ansi.c"
-    PROPERTIES LANGUAGE C
+target_compile_definitions(${COMPONENT_LIB} PUBLIC
+    EI_PORTING_ESPRESSIF=1
+    EIDSP_USE_ESP_DSP=0
+    EIDSP_USE_CMSIS_DSP=0
+    CONFIG_DSP_MAX_FFT_SIZE=256
+)
+target_compile_options(${COMPONENT_LIB} PRIVATE
+    -Wno-missing-field-initializers
+    -Wno-error=missing-field-initializers
+    -Wno-deprecated-declarations
+    -Wno-error=deprecated-declarations
 )
