@@ -9,8 +9,7 @@ The system continuously reads motion data from the MPU6050 via high-speed I2C co
 When a turbulence event occurs, the system uses Wi-Fi to send alerts to a remote HTTP endpoint, utilizing internal cooldown mechanisms to prevent spamming. An onboard RGB LED provides real-time visual status updates to the user.
 
 Additionally, we successfully track the flight device's trajectory and orientation in real-time over WebSockets.
-
-> **Note on Edge AI Integration:** On-device machine learning inference was originally planned but could not be implemented due to time constraints and build challenges regarding TensorFlow within the ESP-IDF environment.
+> **Note on Edge AI Integration:** On-device machine learning inference was planned to allow the device to make real-time decisions on its own in bad weather - highly turbulent cases and was also acheieved on the laptop but could not be implemented on the microcontroller due to time constraints and build challenges regarding TensorFlow within the ESP-IDF environment.
 
 ## Features
 
