@@ -1,29 +1,24 @@
-set(EI_SOURCES
-
-)
-file(GLOB_RECURSE EI_CPP_SOURCES
-    "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.cpp"
-    "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.cc"
-    "${CMAKE_CURRENT_LIST_DIR}/tflite-model/*.cpp"
-)
-file(GLOB_RECURSE EI_C_SOURCES
+file(GLOB_RECURSE ei_sources
     "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.c"
-)
-list(FILTER EI_C_SOURCES EXCLUDE REGEX ".*/esp-dsp/.*")
-list(APPEND EI_SOURCES ${EI_CPP_SOURCES} ${EI_C_SOURCES})
-
-set(EI_INCLUDE_DIRS
-    "."
-    "edge-impulse-sdk"
-    "model-parameters"
-    "tflite-model"
-    "edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/include"
-    "edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/include"
+    "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.cc"
+    "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/*.cpp"
+    "${CMAKE_CURRENT_LIST_DIR}/tflite-model/*.c"
+    "${CMAKE_CURRENT_LIST_DIR}/tflite-model/*.cc"
+    "${CMAKE_CURRENT_LIST_DIR}/tflite-model/*.cpp"
+    "${CMAKE_CURRENT_LIST_DIR}/model-parameters/*.c"
+    "${CMAKE_CURRENT_LIST_DIR}/model-parameters/*.cc"
+    "${CMAKE_CURRENT_LIST_DIR}/model-parameters/*.cpp"
 )
 
 idf_component_register(
-    SRCS ${EI_SOURCES}
-    INCLUDE_DIRS ${EI_INCLUDE_DIRS}
+    SRCS ${ei_sources}
+    INCLUDE_DIRS
+        "."
+        "edge-impulse-sdk"
+        "model-parameters"
+        "tflite-model"
+        "edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/include"
+        "edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/include"
     REQUIRES freertos log esp_timer esp_common
 )
 
@@ -33,6 +28,7 @@ target_compile_definitions(${COMPONENT_LIB} PUBLIC
     EIDSP_USE_CMSIS_DSP=0
     CONFIG_DSP_MAX_FFT_SIZE=256
 )
+
 target_compile_options(${COMPONENT_LIB} PRIVATE
     -Wno-missing-field-initializers
     -Wno-error=missing-field-initializers

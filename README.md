@@ -8,7 +8,9 @@ The system continuously reads motion data from the MPU6050 via high-speed I2C co
 
 When a turbulence event occurs, the system uses Wi-Fi to send alerts to a remote HTTP endpoint, utilizing internal cooldown mechanisms to prevent spamming. An onboard RGB LED provides real-time visual status updates to the user.
 
-Additionally, the firmware outputs telemetry over serial which can be captured using the included Python logging script (`logger.py`). This allows developers to seamlessly record and format data into CSV datasets suitable for machine learning training with platforms like Edge Impulse.
+> **Note on Edge AI Integration:** On-device machine learning inference was planned but is currently not implemented due to a TensorFlow build error within the ESP-IDF environment. 
+> 
+> As an alternative, the firmware outputs telemetry over serial which can be captured using the included Python logging script (`logger.py`). This allows developers to seamlessly record and format data into CSV datasets suitable for offline machine learning training with platforms like Edge Impulse.
 
 ## Features
 
@@ -51,6 +53,9 @@ aeromesh/
 
 ### Tasklist Overview
 ![Tasklist](./aeromesh_media/Screenshot%202026-08-08%20164502.png)
+
+### Firmware Topology
+![Firmware Topology](./aeromesh_media/firmware_topology.png)
 
 ### Hardware Setup
 ![Working Setup 1](./aeromesh_media/IMG_20260808_162942865_HDR_AE.jpg)
