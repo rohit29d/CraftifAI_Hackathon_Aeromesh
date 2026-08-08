@@ -34,4 +34,5 @@ target_compile_options(${COMPONENT_LIB} PRIVATE
     -Wno-error=missing-field-initializers
     -Wno-deprecated-declarations
     -Wno-error=deprecated-declarations
+    -Wno-error=maybe-uninitialized
 )

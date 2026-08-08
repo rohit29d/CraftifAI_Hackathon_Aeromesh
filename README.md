@@ -8,9 +8,9 @@ The system continuously reads motion data from the MPU6050 via high-speed I2C co
 
 When a turbulence event occurs, the system uses Wi-Fi to send alerts to a remote HTTP endpoint, utilizing internal cooldown mechanisms to prevent spamming. An onboard RGB LED provides real-time visual status updates to the user.
 
-> **Note on Edge AI Integration:** On-device machine learning inference was planned but is currently not implemented due to a TensorFlow build error within the ESP-IDF environment. 
-> 
-> As an alternative, the firmware outputs telemetry over serial which can be captured using the included Python logging script (`logger.py`). This allows developers to seamlessly record and format data into CSV datasets suitable for offline machine learning training with platforms like Edge Impulse.
+Additionally, we successfully track the flight device's trajectory and orientation in real-time over WebSockets.
+
+> **Note on Edge AI Integration:** On-device machine learning inference was originally planned but could not be implemented due to time constraints and build challenges regarding TensorFlow within the ESP-IDF environment.
 
 ## Features
 
@@ -18,7 +18,7 @@ When a turbulence event occurs, the system uses Wi-Fi to send alerts to a remote
 - **Wi-Fi Connectivity:** Connects to standard networks to transmit telemetry or alert statuses.
 - **HTTP Alert System:** Sends alerts to a remote HTTP endpoint with internal cooldown mechanisms.
 - **RGB LED Feedback:** Onboard RGB LED indicator for quick visual status updates.
-- **Machine Learning Ready:** Outputs serial data formatted for easy aggregation into Edge Impulse datasets.
+- **WebSocket Telemetry:** Enables real-time tracking of the flight device's trajectory and orientation.
 - **ESP-IDF Framework:** Built using the official Espressif IoT Development Framework (ESP-IDF) for maximum performance and reliability.
 
 ## Hardware Configuration
@@ -46,7 +46,6 @@ aeromesh/
 │   └── configs/
 │       └── app_config.h    # Application-specific configurations (Wi-Fi, Pins, Endpoints)
 ├── main/                   # Source files and application entry point
-└── logger.py               # Python utility for Edge Impulse data collection
 ```
 
 ## Demonstration
