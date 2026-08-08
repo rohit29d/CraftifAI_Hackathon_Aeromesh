@@ -5,12 +5,12 @@ Aeromesh is an ESP32-based firmware project designed to detect and monitor sever
 ## Demonstration
 
 ### Images
-![Working Setup 1](../aeromesh_media/IMG_20260808_162942865_HDR_AE.jpg)
-![Working Setup 2](../aeromesh_media/IMG_20260808_164841109_HDR_AE.jpg)
+![Working Setup 1](./aeromesh_media/IMG_20260808_162942865_HDR_AE.jpg)
+![Working Setup 2](./aeromesh_media/IMG_20260808_164841109_HDR_AE.jpg)
 
 ### Videos
-- [Video Demonstration 1](../aeromesh_media/VID_20260808_162605257.mp4)
-- [Video Demonstration 2](../aeromesh_media/VID_20260808_163537660.mp4)
+- [Video Demonstration 1](./aeromesh_media/VID_20260808_162605257.mp4)
+- [Video Demonstration 2](./aeromesh_media/VID_20260808_163537660.mp4)
 
 ## Features
 
@@ -44,6 +44,7 @@ aeromesh/
 ├── .gitignore              # Git ignore rules
 ├── CMakeLists.txt          # Main CMake configuration
 ├── sdkconfig               # ESP-IDF project configuration
+├── aeromesh_media/         # Media files and demonstrations
 ├── firmware/
 │   └── configs/
 │       └── app_config.h    # Application-specific configurations (Wi-Fi, Pins, Endpoints)

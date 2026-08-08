@@ -27,7 +27,7 @@ idf_component_register(
 )
 
 target_compile_definitions(${COMPONENT_LIB} PUBLIC EI_PORTING_ESPRESSIF=1 EIDSP_USE_ESP_DSP=0 EIDSP_USE_CMSIS_DSP=0 CONFIG_DSP_MAX_FFT_SIZE=256)
-target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-missing-field-initializers -Wno-error=missing-field-initializers)
+target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-missing-field-initializers -Wno-error=missing-field-initializers -Wno-deprecated-declarations -Wno-error=deprecated-declarations)
 
 set_source_files_properties(
     "${CMAKE_CURRENT_LIST_DIR}/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float/dsps_fft2r_fc32_ansi.c"

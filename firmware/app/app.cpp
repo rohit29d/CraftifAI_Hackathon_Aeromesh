@@ -1,7 +1,12 @@
 #include "app.h"
 #include "app_config.h"
 #include "logger.h"
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wmissing-field-initializers"
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #include "edge-impulse-sdk/classifier/ei_run_classifier.h"
+#pragma GCC diagnostic pop
 
 #include <math.h>
 #include <stdbool.h>
@@ -241,11 +246,10 @@ static esp_err_t imu_init(void)
             ESP_LOGE(TAG, "I2C bus initialization failed: %s", esp_err_to_name(err));
             return err;
         }
-        i2c_device_config_t device_config = {
-            .dev_addr_length = I2C_ADDR_BIT_LEN_7,
-            .device_address = APP_MPU6050_ADDRESS,
-            .scl_speed_hz = APP_I2C_FREQ_HZ,
-        };
+        i2c_device_config_t device_config = {};
+        device_config.dev_addr_length = I2C_ADDR_BIT_LEN_7;
+        device_config.device_address = APP_MPU6050_ADDRESS;
+        device_config.scl_speed_hz = APP_I2C_FREQ_HZ;
         err = i2c_master_bus_add_device(imu_bus, &device_config, &imu_dev);
         if (err != ESP_OK) {
             ESP_LOGE(TAG, "MPU6050 device attach failed: %s", esp_err_to_name(err));
@@ -360,7 +364,9 @@ static void sensor_task(void *arg)
             vTaskDelayUntil(&wake, pdMS_TO_TICKS(APP_SENSOR_PERIOD_MS));
             continue;
         }
-        imu_sample_t s = {0};
+        imu_sample_t s = {};
+        s.ax = 0; s.ay = 0; s.az = 0; s.gx = 0; s.gy = 0; s.gz = 0;
+        s.roll = 0.0f; s.pitch = 0.0f; s.yaw = 0.0f; s.state = 0; s.timestamp_us = 0;
         s.ax = (int16_t)((raw[0] << 8) | raw[1]); s.ay = (int16_t)((raw[2] << 8) | raw[3]);
         s.az = (int16_t)((raw[4] << 8) | raw[5]); s.gx = (int16_t)((raw[8] << 8) | raw[9]);
         s.gy = (int16_t)((raw[10] << 8) | raw[11]); s.gz = (int16_t)((raw[12] << 8) | raw[13]);
@@ -399,7 +405,8 @@ static esp_err_t root_handler(httpd_req_t *req) { ESP_LOGI(TAG, "HTTP GET /"); r
 static esp_err_t ws_handler(httpd_req_t *req)
 {
     if (req->method == HTTP_GET) { ESP_LOGI(TAG, "WebSocket client connected fd=%d", httpd_req_to_sockfd(req)); return ESP_OK; }
-    httpd_ws_frame_t frame = {.type = HTTPD_WS_TYPE_TEXT};
+    httpd_ws_frame_t frame = {};
+    frame.type = HTTPD_WS_TYPE_TEXT;
     esp_err_t err = httpd_ws_recv_frame(req, &frame, 0);
     if (err != ESP_OK) ESP_LOGW(TAG, "WebSocket receive failed: %s", esp_err_to_name(err));
     return err;
@@ -411,8 +418,15 @@ static void start_server(void)
     httpd_config_t config = HTTPD_DEFAULT_CONFIG();
     config.max_open_sockets = APP_MAX_HTTP_CLIENTS;
     if (httpd_start(&http_server, &config) != ESP_OK) { ESP_LOGE(TAG, "HTTP server start failed"); return; }
-    static const httpd_uri_t root = {.uri = "/", .method = HTTP_GET, .handler = root_handler};
-    static const httpd_uri_t ws = {.uri = "/ws", .method = HTTP_GET, .handler = ws_handler, .is_websocket = true};
+    static httpd_uri_t root = {};
+    root.uri = "/";
+    root.method = HTTP_GET;
+    root.handler = root_handler;
+    static httpd_uri_t ws = {};
+    ws.uri = "/ws";
+    ws.method = HTTP_GET;
+    ws.handler = ws_handler;
+    ws.is_websocket = true;
     httpd_register_uri_handler(http_server, &root); httpd_register_uri_handler(http_server, &ws);
     ESP_LOGI(TAG, "HTTP/WebSocket server ready");
 }
@@ -429,7 +443,10 @@ static void websocket_task(void *arg)
                 cJSON_AddNumberToObject(obj, "y", s.yaw); cJSON_AddNumberToObject(obj, "s", s.state);
                 char *json = cJSON_PrintUnformatted(obj);
                 if (json) {
-                    httpd_ws_frame_t frame = {.type = HTTPD_WS_TYPE_TEXT, .payload = (uint8_t *)json, .len = strlen(json)};
+                    httpd_ws_frame_t frame = {};
+                    frame.type = HTTPD_WS_TYPE_TEXT;
+                    frame.payload = (uint8_t *)json;
+                    frame.len = strlen(json);
                     int fds[APP_MAX_HTTP_CLIENTS]; size_t count = APP_MAX_HTTP_CLIENTS;
                     if (httpd_get_client_list(http_server, &count, fds) == ESP_OK)
                         for (size_t i = 0; i < count; ++i)
