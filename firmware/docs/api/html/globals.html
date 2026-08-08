@@ -33,7 +33,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
   <td id="projectalign">
    <div id="projectname">AeroMesh Edge AI Turbulence Monitor
    </div>
-   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, estimates orientation, publishes WebSocket telemetry, and sends rate-limited severe-turbulence HTTP alerts.</div>
+   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, runs Edge Impulse turbulence classification, drives a WS2812B status LED, publishes WebSocket telemetry, and emits CSV sensor data.</div>
   </td>
  </tr>
  </tbody>
@@ -118,12 +118,12 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('globals.html',
 
 <div class="contents">
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div><br/>
-<div class="qindex"><a class="qindex" href="#index_a">A</a><div class="alphasepar"></div><a class="qindex" href="#index_c">C</a><div class="alphasepar"></div><a class="qindex" href="#index_f">F</a><div class="alphasepar"></div><a class="qindex" href="#index_h">H</a><div class="alphasepar"></div><a class="qindex" href="#index_i">I</a><div class="alphasepar"></div><a class="qindex" href="#index_l">L</a><div class="alphasepar"></div><a class="qindex" href="#index_m">M</a><div class="alphasepar"></div><a class="qindex" href="#index_r">R</a><div class="alphasepar"></div><a class="qindex" href="#index_s">S</a><div class="alphasepar"></div><a class="qindex" href="#index_t">T</a><div class="alphasepar"></div><a class="qindex" href="#index_u">U</a><div class="alphasepar"></div><a class="qindex" href="#index_w">W</a></div>
+<div class="qindex"><a class="qindex" href="#index_a">A</a><div class="alphasepar"></div><a class="qindex" href="#index_c">C</a><div class="alphasepar"></div><a class="qindex" href="#index_e">E</a><div class="alphasepar"></div><a class="qindex" href="#index_f">F</a><div class="alphasepar"></div><a class="qindex" href="#index_h">H</a><div class="alphasepar"></div><a class="qindex" href="#index_i">I</a><div class="alphasepar"></div><a class="qindex" href="#index_l">L</a><div class="alphasepar"></div><a class="qindex" href="#index_m">M</a><div class="alphasepar"></div><a class="qindex" href="#index_r">R</a><div class="alphasepar"></div><a class="qindex" href="#index_s">S</a><div class="alphasepar"></div><a class="qindex" href="#index_t">T</a><div class="alphasepar"></div><a class="qindex" href="#index_u">U</a><div class="alphasepar"></div><a class="qindex" href="#index_w">W</a></div>
 
 
 <h3 class="doxsection"><a id="index_a" name="index_a"></a>- a -</h3><ul>
-<li>alert_queue&#160;:&#160;<a class="el" href="app_8c.html#af74b80a4b6d3f9678489269c8f570473">app.c</a></li>
-<li>alert_task()&#160;:&#160;<a class="el" href="app_8c.html#a04a53765a22f6e3632e852b55bb81786">app.c</a></li>
+<li>alert_queue&#160;:&#160;<a class="el" href="app_8cpp.html#af74b80a4b6d3f9678489269c8f570473">app.cpp</a></li>
+<li>alert_task()&#160;:&#160;<a class="el" href="app_8cpp.html#a04a53765a22f6e3632e852b55bb81786">app.cpp</a></li>
 <li>APP_ALERT_COOLDOWN_MS&#160;:&#160;<a class="el" href="app__config_8h.html#a060838a4462163eeca125ae678519286">app_config.h</a></li>
 <li>APP_ALERT_QUEUE_LENGTH&#160;:&#160;<a class="el" href="app__config_8h.html#a1b90adff4283ad72cd16886c036b894a">app_config.h</a></li>
 <li>APP_ALERT_URL&#160;:&#160;<a class="el" href="app__config_8h.html#a000e3e7dcd78037a0835b640f23027d0">app_config.h</a></li>
@@ -135,8 +135,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('globals.html',
 <li>APP_I2C_TIMEOUT_MS&#160;:&#160;<a class="el" href="app__config_8h.html#a2dce30c6018d692ee30e5c14dfb698cc">app_config.h</a></li>
 <li>APP_MAX_HTTP_CLIENTS&#160;:&#160;<a class="el" href="app__config_8h.html#ad8fca7e7094db0105926e23c1a362660">app_config.h</a></li>
 <li>APP_MPU6050_ADDRESS&#160;:&#160;<a class="el" href="app__config_8h.html#aa6a57ab63db6973b0ac44115e434d267">app_config.h</a></li>
+<li>APP_RGB_LED_COUNT&#160;:&#160;<a class="el" href="app__config_8h.html#a57e54a0716f2f89adc5ef92637bd4302">app_config.h</a></li>
+<li>APP_RGB_LED_GPIO&#160;:&#160;<a class="el" href="app__config_8h.html#a5660930d833e9bf66ee885efe108c5bd">app_config.h</a></li>
 <li>APP_SENSOR_PERIOD_MS&#160;:&#160;<a class="el" href="app__config_8h.html#ad88078f67433bcfcaa953c1767fe5312">app_config.h</a></li>
-<li>app_start()&#160;:&#160;<a class="el" href="app_8c.html#af0c94d79193624994df85c52e2e30ca4">app.c</a>, <a class="el" href="app_8h.html#af0c94d79193624994df85c52e2e30ca4">app.h</a></li>
+<li>app_start()&#160;:&#160;<a class="el" href="app_8cpp.html#af0c94d79193624994df85c52e2e30ca4">app.cpp</a>, <a class="el" href="app_8h.html#af0c94d79193624994df85c52e2e30ca4">app.h</a></li>
 <li>APP_WEBSOCKET_PERIOD_MS&#160;:&#160;<a class="el" href="app__config_8h.html#a59176c98b8ea00e98513de602545390a">app_config.h</a></li>
 <li>APP_WIFI_PASSWORD&#160;:&#160;<a class="el" href="app__config_8h.html#a4f3f0c8fc3229509808fd24478e7d2d4">app_config.h</a></li>
 <li>APP_WIFI_SSID&#160;:&#160;<a class="el" href="app__config_8h.html#abc82040bba438c5322d13629718d85ca">app_config.h</a></li>
@@ -145,34 +147,42 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('globals.html',
 
 
 <h3 class="doxsection"><a id="index_c" name="index_c"></a>- c -</h3><ul>
-<li>classify_turbulence()&#160;:&#160;<a class="el" href="app_8c.html#ab8d1dbbeab8739d2241f5344a3bacb81">app.c</a></li>
+<li>classifier_window&#160;:&#160;<a class="el" href="app_8cpp.html#ae29ef38ac11a6d7629df44f9234fbe28">app.cpp</a></li>
+<li>classifier_window_count&#160;:&#160;<a class="el" href="app_8cpp.html#a6e9843bb7ea4b54507dd07ce65e61c22">app.cpp</a></li>
+<li>classify_turbulence()&#160;:&#160;<a class="el" href="app_8cpp.html#ab8d1dbbeab8739d2241f5344a3bacb81">app.cpp</a></li>
+</ul>
+
+
+<h3 class="doxsection"><a id="index_e" name="index_e"></a>- e -</h3><ul>
+<li>ei_signal_get_data()&#160;:&#160;<a class="el" href="app_8cpp.html#a4f972eeece1bbb817495f63d0d4b969a">app.cpp</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_f" name="index_f"></a>- f -</h3><ul>
-<li>filter_ready&#160;:&#160;<a class="el" href="app_8c.html#ab2f79e52c93afdc00de2f009ba80d229">app.c</a></li>
+<li>filter_ready&#160;:&#160;<a class="el" href="app_8cpp.html#ab2f79e52c93afdc00de2f009ba80d229">app.cpp</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_h" name="index_h"></a>- h -</h3><ul>
-<li>html_page&#160;:&#160;<a class="el" href="app_8c.html#a63e449204286c4935c24aab9ec9bf7b4">app.c</a></li>
-<li>http_server&#160;:&#160;<a class="el" href="app_8c.html#a5030056dc8d84d954e30fce0f40944f8">app.c</a></li>
+<li>html_page&#160;:&#160;<a class="el" href="app_8cpp.html#a63e449204286c4935c24aab9ec9bf7b4">app.cpp</a></li>
+<li>http_server&#160;:&#160;<a class="el" href="app_8cpp.html#a5030056dc8d84d954e30fce0f40944f8">app.cpp</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_i" name="index_i"></a>- i -</h3><ul>
-<li>imu_bus&#160;:&#160;<a class="el" href="app_8c.html#ac5639083334f2f203d8c11b2ae7c96b7">app.c</a></li>
-<li>imu_dev&#160;:&#160;<a class="el" href="app_8c.html#a279f57f8a9bc69cfeee434b7f17fdbbd">app.c</a></li>
-<li>imu_init()&#160;:&#160;<a class="el" href="app_8c.html#a6f20084f95051e1f92d1f8cbc12b6c7b">app.c</a></li>
-<li>imu_read()&#160;:&#160;<a class="el" href="app_8c.html#a30ebaa354b01c5dc7335100f9ac45bc4">app.c</a></li>
-<li>imu_ready&#160;:&#160;<a class="el" href="app_8c.html#a79426d34b54a74f3fb3099eee517ec00">app.c</a></li>
-<li>imu_write()&#160;:&#160;<a class="el" href="app_8c.html#acd95d72c21540b773e5c1450f150bb06">app.c</a></li>
+<li>imu_bus&#160;:&#160;<a class="el" href="app_8cpp.html#ac5639083334f2f203d8c11b2ae7c96b7">app.cpp</a></li>
+<li>imu_dev&#160;:&#160;<a class="el" href="app_8cpp.html#a279f57f8a9bc69cfeee434b7f17fdbbd">app.cpp</a></li>
+<li>imu_init()&#160;:&#160;<a class="el" href="app_8cpp.html#a6f20084f95051e1f92d1f8cbc12b6c7b">app.cpp</a></li>
+<li>imu_read()&#160;:&#160;<a class="el" href="app_8cpp.html#a30ebaa354b01c5dc7335100f9ac45bc4">app.cpp</a></li>
+<li>imu_ready&#160;:&#160;<a class="el" href="app_8cpp.html#a79426d34b54a74f3fb3099eee517ec00">app.cpp</a></li>
+<li>imu_write()&#160;:&#160;<a class="el" href="app_8cpp.html#acd95d72c21540b773e5c1450f150bb06">app.cpp</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_l" name="index_l"></a>- l -</h3><ul>
-<li>last_alert_us&#160;:&#160;<a class="el" href="app_8c.html#ac1c5f650de8e583a2f28d513bea5fd37">app.c</a></li>
-<li>latest&#160;:&#160;<a class="el" href="app_8c.html#a0df152d60b56e2dab216fc2c7267faee">app.c</a></li>
+<li>last_alert_us&#160;:&#160;<a class="el" href="app_8cpp.html#ac1c5f650de8e583a2f28d513bea5fd37">app.cpp</a></li>
+<li>last_classifier_state&#160;:&#160;<a class="el" href="app_8cpp.html#a447bc1f9e64b650d38e94c436a07bcbe">app.cpp</a></li>
+<li>latest&#160;:&#160;<a class="el" href="app_8cpp.html#a0df152d60b56e2dab216fc2c7267faee">app.cpp</a></li>
 </ul>
 
 
@@ -183,19 +193,22 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('globals.html',
 
 
 <h3 class="doxsection"><a id="index_r" name="index_r"></a>- r -</h3><ul>
-<li>root_handler()&#160;:&#160;<a class="el" href="app_8c.html#adb6a96de937f2cf239b73792fd3e649c">app.c</a></li>
+<li>root_handler()&#160;:&#160;<a class="el" href="app_8cpp.html#adb6a96de937f2cf239b73792fd3e649c">app.cpp</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_s" name="index_s"></a>- s -</h3><ul>
-<li>sample_mutex&#160;:&#160;<a class="el" href="app_8c.html#a860338d52d0aa23cef058ee503685a24">app.c</a></li>
-<li>sensor_task()&#160;:&#160;<a class="el" href="app_8c.html#a63cdfab3bfe8a0b63913aeab946d5ffd">app.c</a></li>
-<li>start_server()&#160;:&#160;<a class="el" href="app_8c.html#a97d0947310743e038e9174ba72a025b4">app.c</a></li>
+<li>sample_mutex&#160;:&#160;<a class="el" href="app_8cpp.html#a860338d52d0aa23cef058ee503685a24">app.cpp</a></li>
+<li>sensor_task()&#160;:&#160;<a class="el" href="app_8cpp.html#a63cdfab3bfe8a0b63913aeab946d5ffd">app.cpp</a></li>
+<li>start_server()&#160;:&#160;<a class="el" href="app_8cpp.html#a97d0947310743e038e9174ba72a025b4">app.cpp</a></li>
+<li>status_led&#160;:&#160;<a class="el" href="app_8cpp.html#a3d1e499cb5dd86b1ce4ed86eb16533e6">app.cpp</a></li>
+<li>status_led_init()&#160;:&#160;<a class="el" href="app_8cpp.html#a55a93b7581a9e3b3114727ff61d04fdf">app.cpp</a></li>
+<li>status_led_set_state()&#160;:&#160;<a class="el" href="app_8cpp.html#af8bf0763bf778008f16c8990c304998a">app.cpp</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_t" name="index_t"></a>- t -</h3><ul>
-<li>TAG&#160;:&#160;<a class="el" href="app_8c.html#a5a85b9c772bbeb480b209a3e6ea92b4c">app.c</a></li>
+<li>TAG&#160;:&#160;<a class="el" href="app_8cpp.html#a5a85b9c772bbeb480b209a3e6ea92b4c">app.cpp</a></li>
 </ul>
 
 
@@ -205,10 +218,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('globals.html',
 
 
 <h3 class="doxsection"><a id="index_w" name="index_w"></a>- w -</h3><ul>
-<li>websocket_task()&#160;:&#160;<a class="el" href="app_8c.html#a0573d235e436d5d5c541f14afaa0d2e6">app.c</a></li>
-<li>wifi_event()&#160;:&#160;<a class="el" href="app_8c.html#a8c6a107d443f58c2eb23ccbdae976af0">app.c</a></li>
-<li>wifi_init()&#160;:&#160;<a class="el" href="app_8c.html#a745aaa256e0f8636cd5d7b63e3035706">app.c</a></li>
-<li>ws_handler()&#160;:&#160;<a class="el" href="app_8c.html#abc27e4e0bae8202401de3ae3400eeb65">app.c</a></li>
+<li>websocket_task()&#160;:&#160;<a class="el" href="app_8cpp.html#a0573d235e436d5d5c541f14afaa0d2e6">app.cpp</a></li>
+<li>wifi_event()&#160;:&#160;<a class="el" href="app_8cpp.html#a8c6a107d443f58c2eb23ccbdae976af0">app.cpp</a></li>
+<li>wifi_init()&#160;:&#160;<a class="el" href="app_8cpp.html#a745aaa256e0f8636cd5d7b63e3035706">app.cpp</a></li>
+<li>ws_handler()&#160;:&#160;<a class="el" href="app_8cpp.html#abc27e4e0bae8202401de3ae3400eeb65">app.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

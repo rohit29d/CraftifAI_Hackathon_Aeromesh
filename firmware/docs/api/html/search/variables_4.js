@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['imu_5fbus_0',['imu_bus',['../app_8c.html#ac5639083334f2f203d8c11b2ae7c96b7',1,'app.c']]],
-  ['imu_5fdev_1',['imu_dev',['../app_8c.html#a279f57f8a9bc69cfeee434b7f17fdbbd',1,'app.c']]],
-  ['imu_5fready_2',['imu_ready',['../app_8c.html#a79426d34b54a74f3fb3099eee517ec00',1,'app.c']]]
+  ['html_5fpage_0',['html_page',['../app_8cpp.html#a63e449204286c4935c24aab9ec9bf7b4',1,'app.cpp']]],
+  ['http_5fserver_1',['http_server',['../app_8cpp.html#a5030056dc8d84d954e30fce0f40944f8',1,'app.cpp']]]
 ];

@@ -11,9 +11,11 @@ var searchData=
   ['app_5fi2c_5ftimeout_5fms_8',['APP_I2C_TIMEOUT_MS',['../app__config_8h.html#a2dce30c6018d692ee30e5c14dfb698cc',1,'app_config.h']]],
   ['app_5fmax_5fhttp_5fclients_9',['APP_MAX_HTTP_CLIENTS',['../app__config_8h.html#ad8fca7e7094db0105926e23c1a362660',1,'app_config.h']]],
   ['app_5fmpu6050_5faddress_10',['APP_MPU6050_ADDRESS',['../app__config_8h.html#aa6a57ab63db6973b0ac44115e434d267',1,'app_config.h']]],
-  ['app_5fsensor_5fperiod_5fms_11',['APP_SENSOR_PERIOD_MS',['../app__config_8h.html#ad88078f67433bcfcaa953c1767fe5312',1,'app_config.h']]],
-  ['app_5fwebsocket_5fperiod_5fms_12',['APP_WEBSOCKET_PERIOD_MS',['../app__config_8h.html#a59176c98b8ea00e98513de602545390a',1,'app_config.h']]],
-  ['app_5fwifi_5fpassword_13',['APP_WIFI_PASSWORD',['../app__config_8h.html#a4f3f0c8fc3229509808fd24478e7d2d4',1,'app_config.h']]],
-  ['app_5fwifi_5fssid_14',['APP_WIFI_SSID',['../app__config_8h.html#abc82040bba438c5322d13629718d85ca',1,'app_config.h']]],
-  ['array_5fsize_15',['ARRAY_SIZE',['../helpers_8h.html#a25f003de16c08a4888b69f619d70f427',1,'helpers.h']]]
+  ['app_5frgb_5fled_5fcount_11',['APP_RGB_LED_COUNT',['../app__config_8h.html#a57e54a0716f2f89adc5ef92637bd4302',1,'app_config.h']]],
+  ['app_5frgb_5fled_5fgpio_12',['APP_RGB_LED_GPIO',['../app__config_8h.html#a5660930d833e9bf66ee885efe108c5bd',1,'app_config.h']]],
+  ['app_5fsensor_5fperiod_5fms_13',['APP_SENSOR_PERIOD_MS',['../app__config_8h.html#ad88078f67433bcfcaa953c1767fe5312',1,'app_config.h']]],
+  ['app_5fwebsocket_5fperiod_5fms_14',['APP_WEBSOCKET_PERIOD_MS',['../app__config_8h.html#a59176c98b8ea00e98513de602545390a',1,'app_config.h']]],
+  ['app_5fwifi_5fpassword_15',['APP_WIFI_PASSWORD',['../app__config_8h.html#a4f3f0c8fc3229509808fd24478e7d2d4',1,'app_config.h']]],
+  ['app_5fwifi_5fssid_16',['APP_WIFI_SSID',['../app__config_8h.html#abc82040bba438c5322d13629718d85ca',1,'app_config.h']]],
+  ['array_5fsize_17',['ARRAY_SIZE',['../helpers_8h.html#a25f003de16c08a4888b69f619d70f427',1,'helpers.h']]]
 ];

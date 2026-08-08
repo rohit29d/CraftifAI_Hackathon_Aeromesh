@@ -33,7 +33,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
   <td id="projectalign">
    <div id="projectname">AeroMesh Edge AI Turbulence Monitor
    </div>
-   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, estimates orientation, publishes WebSocket telemetry, and sends rate-limited severe-turbulence HTTP alerts.</div>
+   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, runs Edge Impulse turbulence classification, drives a WS2812B status LED, publishes WebSocket telemetry, and emits CSV sensor data.</div>
   </td>
  </tr>
  </tbody>
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('app_8h.html','
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="app_8h__dep__incl.svg" width="143" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="app_8h__dep__incl.svg" width="158" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="app_8h_source.html">Go to the source code of this file.</a></p>
@@ -149,14 +149,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="app_8c_source.html#l00279">279</a> of file <a class="el" href="app_8c_source.html">app.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="app_8cpp_source.html#l00504">504</a> of file <a class="el" href="app_8cpp_source.html">app.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="app_8c_source.html#l00031">alert_queue</a>, <a class="el" href="app_8c_source.html#l00239">alert_task()</a>, <a class="el" href="app__config_8h_source.html#l00017">APP_ALERT_QUEUE_LENGTH</a>, <a class="el" href="app_8c_source.html#l00062">imu_init()</a>, <a class="el" href="app_8c_source.html#l00030">sample_mutex</a>, <a class="el" href="app_8c_source.html#l00130">sensor_task()</a>, <a class="el" href="app_8c_source.html#l00026">TAG</a>, <a class="el" href="app_8c_source.html#l00212">websocket_task()</a>, and <a class="el" href="app_8c_source.html#l00265">wifi_init()</a>.</p>
+<p class="reference">References <a class="el" href="app_8cpp_source.html#l00039">alert_queue</a>, <a class="el" href="app_8cpp_source.html#l00464">alert_task()</a>, <a class="el" href="app__config_8h_source.html#l00021">APP_ALERT_QUEUE_LENGTH</a>, <a class="el" href="app_8cpp_source.html#l00230">imu_init()</a>, <a class="el" href="app_8cpp_source.html#l00038">sample_mutex</a>, <a class="el" href="app_8cpp_source.html#l00338">sensor_task()</a>, <a class="el" href="app_8cpp_source.html#l00168">status_led_init()</a>, <a class="el" href="app_8cpp_source.html#l00188">status_led_set_state()</a>, <a class="el" href="app_8cpp_source.html#l00034">TAG</a>, <a class="el" href="app_8cpp_source.html#l00434">websocket_task()</a>, and <a class="el" href="app_8cpp_source.html#l00490">wifi_init()</a>.</p>
 <div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="app_8h_af0c94d79193624994df85c52e2e30ca4_cgraph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="app_8h_af0c94d79193624994df85c52e2e30ca4_cgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

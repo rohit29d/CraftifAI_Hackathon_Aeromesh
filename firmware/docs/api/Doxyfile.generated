@@ -5,7 +5,7 @@
 
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "AeroMesh Edge AI Turbulence Monitor"
-PROJECT_BRIEF          = "ESP32-C3 firmware samples an MPU6050 at 50 Hz, estimates orientation, publishes WebSocket telemetry, and sends rate-limited severe-turbulence HTTP alerts."
+PROJECT_BRIEF          = "ESP32-C3 firmware samples an MPU6050 at 50 Hz, runs Edge Impulse turbulence classification, drives a WS2812B status LED, publishes WebSocket telemetry, and emits CSV sensor data."
 OUTPUT_DIRECTORY       = "C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api"
 OUTPUT_LANGUAGE        = English
 CREATE_SUBDIRS         = NO

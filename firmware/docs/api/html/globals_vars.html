@@ -33,7 +33,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
   <td id="projectalign">
    <div id="projectname">AeroMesh Edge AI Turbulence Monitor
    </div>
-   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, estimates orientation, publishes WebSocket telemetry, and sends rate-limited severe-turbulence HTTP alerts.</div>
+   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, runs Edge Impulse turbulence classification, drives a WS2812B status LED, publishes WebSocket telemetry, and emits CSV sensor data.</div>
   </td>
  </tr>
  </tbody>
@@ -118,19 +118,23 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('globals_vars.h
 
 <div class="contents">
 <div class="textblock">Here is a list of all variables with links to the files they belong to:</div><br/>
-<div class="qindex"><a class="qindex" href="#index_a">A</a><div class="alphasepar"></div><a class="qindex" href="#index_f">F</a><div class="alphasepar"></div><a class="qindex" href="#index_h">H</a><div class="alphasepar"></div><a class="qindex" href="#index_i">I</a><div class="alphasepar"></div><a class="qindex" href="#index_l">L</a><div class="alphasepar"></div><a class="qindex" href="#index_s">S</a><div class="alphasepar"></div><a class="qindex" href="#index_t">T</a></div>
+<div class="qindex"><a class="qindex" href="#index_a">A</a><div class="alphasepar"></div><a class="qindex" href="#index_c">C</a><div class="alphasepar"></div><a class="qindex" href="#index_f">F</a><div class="alphasepar"></div><a class="qindex" href="#index_h">H</a><div class="alphasepar"></div><a class="qindex" href="#index_i">I</a><div class="alphasepar"></div><a class="qindex" href="#index_l">L</a><div class="alphasepar"></div><a class="qindex" href="#index_s">S</a><div class="alphasepar"></div><a class="qindex" href="#index_t">T</a></div>
 <ul>
-<li>alert_queue&#160;:&#160;<a class="el" href="app_8c.html#af74b80a4b6d3f9678489269c8f570473">app.c</a></li>
-<li>filter_ready&#160;:&#160;<a class="el" href="app_8c.html#ab2f79e52c93afdc00de2f009ba80d229">app.c</a></li>
-<li>html_page&#160;:&#160;<a class="el" href="app_8c.html#a63e449204286c4935c24aab9ec9bf7b4">app.c</a></li>
-<li>http_server&#160;:&#160;<a class="el" href="app_8c.html#a5030056dc8d84d954e30fce0f40944f8">app.c</a></li>
-<li>imu_bus&#160;:&#160;<a class="el" href="app_8c.html#ac5639083334f2f203d8c11b2ae7c96b7">app.c</a></li>
-<li>imu_dev&#160;:&#160;<a class="el" href="app_8c.html#a279f57f8a9bc69cfeee434b7f17fdbbd">app.c</a></li>
-<li>imu_ready&#160;:&#160;<a class="el" href="app_8c.html#a79426d34b54a74f3fb3099eee517ec00">app.c</a></li>
-<li>last_alert_us&#160;:&#160;<a class="el" href="app_8c.html#ac1c5f650de8e583a2f28d513bea5fd37">app.c</a></li>
-<li>latest&#160;:&#160;<a class="el" href="app_8c.html#a0df152d60b56e2dab216fc2c7267faee">app.c</a></li>
-<li>sample_mutex&#160;:&#160;<a class="el" href="app_8c.html#a860338d52d0aa23cef058ee503685a24">app.c</a></li>
-<li>TAG&#160;:&#160;<a class="el" href="app_8c.html#a5a85b9c772bbeb480b209a3e6ea92b4c">app.c</a></li>
+<li>alert_queue&#160;:&#160;<a class="el" href="app_8cpp.html#af74b80a4b6d3f9678489269c8f570473">app.cpp</a></li>
+<li>classifier_window&#160;:&#160;<a class="el" href="app_8cpp.html#ae29ef38ac11a6d7629df44f9234fbe28">app.cpp</a></li>
+<li>classifier_window_count&#160;:&#160;<a class="el" href="app_8cpp.html#a6e9843bb7ea4b54507dd07ce65e61c22">app.cpp</a></li>
+<li>filter_ready&#160;:&#160;<a class="el" href="app_8cpp.html#ab2f79e52c93afdc00de2f009ba80d229">app.cpp</a></li>
+<li>html_page&#160;:&#160;<a class="el" href="app_8cpp.html#a63e449204286c4935c24aab9ec9bf7b4">app.cpp</a></li>
+<li>http_server&#160;:&#160;<a class="el" href="app_8cpp.html#a5030056dc8d84d954e30fce0f40944f8">app.cpp</a></li>
+<li>imu_bus&#160;:&#160;<a class="el" href="app_8cpp.html#ac5639083334f2f203d8c11b2ae7c96b7">app.cpp</a></li>
+<li>imu_dev&#160;:&#160;<a class="el" href="app_8cpp.html#a279f57f8a9bc69cfeee434b7f17fdbbd">app.cpp</a></li>
+<li>imu_ready&#160;:&#160;<a class="el" href="app_8cpp.html#a79426d34b54a74f3fb3099eee517ec00">app.cpp</a></li>
+<li>last_alert_us&#160;:&#160;<a class="el" href="app_8cpp.html#ac1c5f650de8e583a2f28d513bea5fd37">app.cpp</a></li>
+<li>last_classifier_state&#160;:&#160;<a class="el" href="app_8cpp.html#a447bc1f9e64b650d38e94c436a07bcbe">app.cpp</a></li>
+<li>latest&#160;:&#160;<a class="el" href="app_8cpp.html#a0df152d60b56e2dab216fc2c7267faee">app.cpp</a></li>
+<li>sample_mutex&#160;:&#160;<a class="el" href="app_8cpp.html#a860338d52d0aa23cef058ee503685a24">app.cpp</a></li>
+<li>status_led&#160;:&#160;<a class="el" href="app_8cpp.html#a3d1e499cb5dd86b1ce4ed86eb16533e6">app.cpp</a></li>
+<li>TAG&#160;:&#160;<a class="el" href="app_8cpp.html#a5a85b9c772bbeb480b209a3e6ea92b4c">app.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

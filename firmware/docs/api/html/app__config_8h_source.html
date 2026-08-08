@@ -33,7 +33,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
   <td id="projectalign">
    <div id="projectname">AeroMesh Edge AI Turbulence Monitor
    </div>
-   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, estimates orientation, publishes WebSocket telemetry, and sends rate-limited severe-turbulence HTTP alerts.</div>
+   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, runs Edge Impulse turbulence classification, drives a WS2812B status LED, publishes WebSocket telemetry, and emits CSV sensor data.</div>
   </td>
  </tr>
  </tbody>
@@ -123,25 +123,30 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('app__config_8h
 <a href="app__config_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef APP_CONFIG_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define APP_CONFIG_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="app__config_8h.html#abc82040bba438c5322d13629718d85ca">    4</a></span><span class="preprocessor">#define APP_WIFI_SSID &quot;REPLACE_WITH_WIFI_SSID&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="app__config_8h.html#a4f3f0c8fc3229509808fd24478e7d2d4">    5</a></span><span class="preprocessor">#define APP_WIFI_PASSWORD &quot;REPLACE_WITH_WIFI_PASSWORD&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="app__config_8h.html#a000e3e7dcd78037a0835b640f23027d0">    6</a></span><span class="preprocessor">#define APP_ALERT_URL &quot;http://example.invalid/aeromesh-alert&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="app__config_8h.html#ad8c77fc896da15e645f5fd0b2fbd92c5">    8</a></span><span class="preprocessor">#define APP_I2C_SDA_GPIO 5</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="app__config_8h.html#a1c0f8320febdcdf08699341868e63aa4">    9</a></span><span class="preprocessor">#define APP_I2C_SCL_GPIO 4</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="app__config_8h.html#aa7ad297455b055142d85b72cb13562cb">   10</a></span><span class="preprocessor">#define APP_I2C_FREQ_HZ 400000</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="app__config_8h.html#aa6a57ab63db6973b0ac44115e434d267">   11</a></span><span class="preprocessor">#define APP_MPU6050_ADDRESS 0x68</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="app__config_8h.html#a2dce30c6018d692ee30e5c14dfb698cc">   12</a></span><span class="preprocessor">#define APP_I2C_TIMEOUT_MS 100</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="app__config_8h.html#ad88078f67433bcfcaa953c1767fe5312">   14</a></span><span class="preprocessor">#define APP_SENSOR_PERIOD_MS 20</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="app__config_8h.html#a59176c98b8ea00e98513de602545390a">   15</a></span><span class="preprocessor">#define APP_WEBSOCKET_PERIOD_MS 50</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="app__config_8h.html#a060838a4462163eeca125ae678519286">   16</a></span><span class="preprocessor">#define APP_ALERT_COOLDOWN_MS 5000</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="app__config_8h.html#a1b90adff4283ad72cd16886c036b894a">   17</a></span><span class="preprocessor">#define APP_ALERT_QUEUE_LENGTH 8</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="app__config_8h.html#afb93f7bf2ac59cddec8369944310c799">   18</a></span><span class="preprocessor">#define APP_HTTP_TIMEOUT_MS 5000</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="app__config_8h.html#ad8fca7e7094db0105926e23c1a362660">   19</a></span><span class="preprocessor">#define APP_MAX_HTTP_CLIENTS 8</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="app__config_8h.html#a64ce52ef358db42271ee40fc6b5898b2">   20</a></span><span class="preprocessor">#define APP_COMPLEMENTARY_ALPHA 0.98f</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#endif </span><span class="comment">/* APP_CONFIG_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;driver/gpio.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="app__config_8h.html#abc82040bba438c5322d13629718d85ca">    6</a></span><span class="preprocessor">#define APP_WIFI_SSID &quot;ROHIT2IN1&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="app__config_8h.html#a4f3f0c8fc3229509808fd24478e7d2d4">    7</a></span><span class="preprocessor">#define APP_WIFI_PASSWORD &quot;Rohit0707&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="app__config_8h.html#a000e3e7dcd78037a0835b640f23027d0">    8</a></span><span class="preprocessor">#define APP_ALERT_URL &quot;http://example.invalid/aeromesh-alert&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="app__config_8h.html#ad8c77fc896da15e645f5fd0b2fbd92c5">   10</a></span><span class="preprocessor">#define APP_I2C_SDA_GPIO ((gpio_num_t)5)</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="app__config_8h.html#a1c0f8320febdcdf08699341868e63aa4">   11</a></span><span class="preprocessor">#define APP_I2C_SCL_GPIO ((gpio_num_t)4)</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="app__config_8h.html#a5660930d833e9bf66ee885efe108c5bd">   12</a></span><span class="preprocessor">#define APP_RGB_LED_GPIO ((gpio_num_t)8)</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="app__config_8h.html#a57e54a0716f2f89adc5ef92637bd4302">   13</a></span><span class="preprocessor">#define APP_RGB_LED_COUNT 1</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="app__config_8h.html#aa7ad297455b055142d85b72cb13562cb">   14</a></span><span class="preprocessor">#define APP_I2C_FREQ_HZ 400000</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="app__config_8h.html#aa6a57ab63db6973b0ac44115e434d267">   15</a></span><span class="preprocessor">#define APP_MPU6050_ADDRESS 0x68</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="app__config_8h.html#a2dce30c6018d692ee30e5c14dfb698cc">   16</a></span><span class="preprocessor">#define APP_I2C_TIMEOUT_MS 100</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="app__config_8h.html#ad88078f67433bcfcaa953c1767fe5312">   18</a></span><span class="preprocessor">#define APP_SENSOR_PERIOD_MS 20</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="app__config_8h.html#a59176c98b8ea00e98513de602545390a">   19</a></span><span class="preprocessor">#define APP_WEBSOCKET_PERIOD_MS 50</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="app__config_8h.html#a060838a4462163eeca125ae678519286">   20</a></span><span class="preprocessor">#define APP_ALERT_COOLDOWN_MS 5000</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="app__config_8h.html#a1b90adff4283ad72cd16886c036b894a">   21</a></span><span class="preprocessor">#define APP_ALERT_QUEUE_LENGTH 8</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="app__config_8h.html#afb93f7bf2ac59cddec8369944310c799">   22</a></span><span class="preprocessor">#define APP_HTTP_TIMEOUT_MS 5000</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">/* ESP-IDF HTTPD reserves three internal sockets; keep total below LWIP&#39;s default limit of 7. */</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="app__config_8h.html#ad8fca7e7094db0105926e23c1a362660">   24</a></span><span class="preprocessor">#define APP_MAX_HTTP_CLIENTS 4</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="app__config_8h.html#a64ce52ef358db42271ee40fc6b5898b2">   25</a></span><span class="preprocessor">#define APP_COMPLEMENTARY_ALPHA 0.98f</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif </span><span class="comment">/* APP_CONFIG_H */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

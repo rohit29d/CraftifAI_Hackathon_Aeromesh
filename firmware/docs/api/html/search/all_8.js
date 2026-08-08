@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['last_5falert_5fus_0',['last_alert_us',['../app_8c.html#ac1c5f650de8e583a2f28d513bea5fd37',1,'app.c']]],
-  ['latest_1',['latest',['../app_8c.html#a0df152d60b56e2dab216fc2c7267faee',1,'app.c']]],
-  ['layout_2',['Layout',['../dir_d9edf6c004b4a7ff14fe9ae7a92214ee.html#autotoc_md5',1,'']]],
-  ['layout_3',['Source layout',['../index.html#autotoc_md3',1,'']]],
-  ['logger_2ec_4',['logger.c',['../logger_8c.html',1,'']]],
-  ['logger_2eh_5',['logger.h',['../logger_8h.html',1,'']]]
+  ['imu_5fbus_0',['imu_bus',['../app_8cpp.html#ac5639083334f2f203d8c11b2ae7c96b7',1,'app.cpp']]],
+  ['imu_5fdev_1',['imu_dev',['../app_8cpp.html#a279f57f8a9bc69cfeee434b7f17fdbbd',1,'app.cpp']]],
+  ['imu_5finit_2',['imu_init',['../app_8cpp.html#a6f20084f95051e1f92d1f8cbc12b6c7b',1,'app.cpp']]],
+  ['imu_5fread_3',['imu_read',['../app_8cpp.html#a30ebaa354b01c5dc7335100f9ac45bc4',1,'app.cpp']]],
+  ['imu_5fready_4',['imu_ready',['../app_8cpp.html#a79426d34b54a74f3fb3099eee517ec00',1,'app.cpp']]],
+  ['imu_5fsample_5ft_5',['imu_sample_t',['../structimu__sample__t.html',1,'']]],
+  ['imu_5fwrite_6',['imu_write',['../app_8cpp.html#acd95d72c21540b773e5c1450f150bb06',1,'app.cpp']]]
 ];

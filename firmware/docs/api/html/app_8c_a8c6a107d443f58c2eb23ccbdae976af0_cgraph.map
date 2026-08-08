@@ -1,9 +1,0 @@
-<map id="wifi_event" name="wifi_event">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,86,57"/>
-<area shape="rect" id="Node000002" href="$app_8c.html#a97d0947310743e038e9174ba72a025b4" title=" " alt="" coords="134,31,224,57"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,41,121,43,116,45,86,47"/>
-<area shape="rect" id="Node000003" href="$app_8c.html#adb6a96de937f2cf239b73792fd3e649c" title=" " alt="" coords="272,5,364,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="224,33,259,29,254,30,225,38"/>
-<area shape="rect" id="Node000004" href="$app_8c.html#abc27e4e0bae8202401de3ae3400eeb65" title=" " alt="" coords="274,56,362,83"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="225,50,262,59,257,59,224,55"/>
-</map>

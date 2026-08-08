@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hardware_20and_20configuration_0',['Hardware and configuration',['../index.html#autotoc_md1',1,'']]]
+  ['edge_20ai_20turbulence_20monitor_0',['AeroMesh Edge AI Turbulence Monitor',['../index.html',1,'']]]
 ];

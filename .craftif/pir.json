@@ -6,7 +6,7 @@
     "project_path": "C:\\Espressif\\projects\\my_firmware\\aeromesh",
     "chat_id": "f66dd6c8-76c8-434b-b277-90dddc1dcfd8",
     "revision": "7ade7bdd047afa8009c29a5067349c7c",
-    "generated_at_ms": 1786189766691,
+    "generated_at_ms": 1786190392714,
     "analyzer_version": "pir_maker-static-0.2.0",
     "analyzed_files": [
       "CMakeLists.txt",
@@ -27,22 +27,22 @@
       "sdkconfig.defaults"
     ],
     "file_hashes": {
-      "firmware/utils/logger/logger.h": "2c284c641c88c6a4fff52db62e8d1ea5",
       "firmware/utils/logger/logger.c": "8e992fef35c9a4678ec38e60902d741d",
-      "firmware/app/app.h": "cec17d1d103fab9a69817d1f0a9c55a1",
-      "firmware/configs/build_config.h": "dd997e9a0a461df28c370a61963fd7e5",
-      "main/firmgen_sources.cmake": "8c402a97c6ce01d67ad27f1f4a184dc0",
-      "main/idf_component.yml": "5244a698a75205452ad69f895a07b6a1",
-      "firmware/configs/platform_config.h": "010b01144dbd2d3fb63f3053b158ab7a",
-      "firmware/utils/helpers/helpers.h": "ec8b635b7e5b55f8aeb8f47c3ff34312",
-      "main/CMakeLists.txt": "5895a9abc10e933f05212fddbbcf7ea6",
-      "sdkconfig.defaults": "5be09baf6ad4c43000c7a01d5ba3e9f5",
-      "firmware/app/app.cpp": "e6d4a0da90f95b2bc1757778d8947dfd",
-      "firmware/utils/helpers/helpers.c": "914568ab7415fec17e74f306cbb5ae09",
       "CMakeLists.txt": "e77fca945b92cac672a8e1145db82b6f",
-      "main/entry.c": "86aaa3bc61772628c601798f4d9dea56",
+      "main/CMakeLists.txt": "5895a9abc10e933f05212fddbbcf7ea6",
+      "firmware/utils/helpers/helpers.c": "914568ab7415fec17e74f306cbb5ae09",
+      "sdkconfig.defaults": "5be09baf6ad4c43000c7a01d5ba3e9f5",
+      "sdkconfig": "e156df1989b3e9afa0a6f7bebc359a36",
+      "firmware/app/app.cpp": "e6d4a0da90f95b2bc1757778d8947dfd",
       "firmware/configs/app_config.h": "26b7ed4e391a02e0fb2f99a6ac9053a7",
-      "sdkconfig": "e156df1989b3e9afa0a6f7bebc359a36"
+      "firmware/configs/build_config.h": "dd997e9a0a461df28c370a61963fd7e5",
+      "main/idf_component.yml": "5244a698a75205452ad69f895a07b6a1",
+      "main/entry.c": "86aaa3bc61772628c601798f4d9dea56",
+      "main/firmgen_sources.cmake": "8c402a97c6ce01d67ad27f1f4a184dc0",
+      "firmware/utils/helpers/helpers.h": "ec8b635b7e5b55f8aeb8f47c3ff34312",
+      "firmware/app/app.h": "cec17d1d103fab9a69817d1f0a9c55a1",
+      "firmware/utils/logger/logger.h": "2c284c641c88c6a4fff52db62e8d1ea5",
+      "firmware/configs/platform_config.h": "010b01144dbd2d3fb63f3053b158ab7a"
     }
   },
   "approval": {
@@ -1621,6 +1621,7 @@
       "runtime_metadata": {
         "telemetry_enabled": false,
         "overlays": {
+          "diagram_view": "hld",
           "hld_projection": "architecture",
           "hld_edge_labels": {
             "hld_user::hld::out|hld_cloud::hld::in": "View Data / Configure",
@@ -1643,8 +1644,7 @@
             "hld_imu_50hz::hld::out|hld_storage_manager::hld::in": "Data Flow",
             "hld_wifi::hld::out|hld_internet::hld::in": "Internet Access",
             "hld_cloud::hld::out|hld_internet::hld::in": "Cloud Route"
-          },
-          "diagram_view": "hld"
+          }
         }
       }
     },
@@ -2323,32 +2323,32 @@
       "runtime_metadata": {
         "telemetry_enabled": false,
         "overlays": {
+          "diagram_view": "ldd",
           "ldd_edge_labels": {
-            "event_handler::ldd::out|ws_20hz::ldd::in": "triggers",
-            "wifi::ldd::out|mqtt::ldd::in": "connects",
-            "imu_50hz::ldd::out|storage_manager::ldd::in": "data_flow",
-            "app_task::ldd::out|timer_node::ldd::in": "controls",
-            "event_handler::ldd::out|http_alert::ldd::in": "triggers",
-            "event_handler::ldd::out|imu_50hz::ldd::in": "triggers",
-            "event_handler::ldd::out|app_task::ldd::in": "triggers",
-            "imu_50hz::ldd::out|i2c_device::ldd::in": "data_flow",
-            "imu_50hz::ldd::out|_i2c::ldd::in": "data_flow",
-            "imu_50hz::ldd::out|logger::ldd::in": "data_flow",
             "imu_50hz::ldd::out|_http::ldd::in": "data_flow",
-            "timer_node::ldd::out|event_handler::ldd::in": "signals",
+            "app_task::ldd::out|_http::ldd::in": "controls",
+            "wifi::ldd::out|mqtt::ldd::in": "connects",
+            "imu_50hz::ldd::out|i2c_device::ldd::in": "data_flow",
             "imu_50hz::ldd::out|mqtt::ldd::in": "data_flow",
-            "imu_50hz::ldd::out|http_client::ldd::in": "data_flow",
-            "app_task::ldd::out|mqtt::ldd::in": "controls",
-            "app_task::ldd::out|wifi::ldd::in": "controls",
-            "app_task::ldd::out|event_handler::ldd::in": "controls",
-            "app_task::ldd::out|_i2c::ldd::in": "controls",
-            "app_task::ldd::out|i2c_device::ldd::in": "controls",
-            "app_task::ldd::out|storage_manager::ldd::in": "controls",
+            "event_handler::ldd::out|imu_50hz::ldd::in": "triggers",
+            "event_handler::ldd::out|ws_20hz::ldd::in": "triggers",
             "app_task::ldd::out|http_client::ldd::in": "controls",
-            "app_task::ldd::out|logger::ldd::in": "controls",
-            "app_task::ldd::out|_http::ldd::in": "controls"
-          },
-          "diagram_view": "ldd"
+            "app_task::ldd::out|i2c_device::ldd::in": "controls",
+            "app_task::ldd::out|_i2c::ldd::in": "controls",
+            "event_handler::ldd::out|http_alert::ldd::in": "triggers",
+            "imu_50hz::ldd::out|_i2c::ldd::in": "data_flow",
+            "imu_50hz::ldd::out|http_client::ldd::in": "data_flow",
+            "event_handler::ldd::out|app_task::ldd::in": "triggers",
+            "app_task::ldd::out|timer_node::ldd::in": "controls",
+            "app_task::ldd::out|storage_manager::ldd::in": "controls",
+            "app_task::ldd::out|mqtt::ldd::in": "controls",
+            "app_task::ldd::out|event_handler::ldd::in": "controls",
+            "imu_50hz::ldd::out|logger::ldd::in": "data_flow",
+            "app_task::ldd::out|wifi::ldd::in": "controls",
+            "imu_50hz::ldd::out|storage_manager::ldd::in": "data_flow",
+            "timer_node::ldd::out|event_handler::ldd::in": "signals",
+            "app_task::ldd::out|logger::ldd::in": "controls"
+          }
         }
       }
     },
@@ -3054,11 +3054,11 @@
   "change_log": [],
   "unresolved": [],
   "read_only": false,
-  "graph_version": 5,
+  "graph_version": 6,
   "generation": {
     "mode": "static",
     "triggered_by": "mount",
-    "analyzed_at_ms": 1786189766693,
+    "analyzed_at_ms": 1786190392719,
     "input_files": [
       "CMakeLists.txt",
       "firmware/app/app.cpp",
@@ -3083,7 +3083,7 @@
     "content_hash": "",
     "pending_patches": [],
     "last_diff": {
-      "from_revision": "3d47ab976b37f0a3a40510cdcd759a50",
+      "from_revision": "7ade7bdd047afa8009c29a5067349c7c",
       "to_revision": "7ade7bdd047afa8009c29a5067349c7c",
       "nodes_added": [],
       "nodes_removed": [],
@@ -3096,6 +3096,6 @@
     "valid": true,
     "error_count": 0,
     "warning_count": 1,
-    "validated_at_ms": 1786189766694
+    "validated_at_ms": 1786190392721
   }
 }

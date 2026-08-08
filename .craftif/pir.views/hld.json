@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "view": "hld",
   "revision": "7ade7bdd047afa8009c29a5067349c7c",
-  "graph_version": 5,
-  "generated_at_ms": 1786189766699,
+  "graph_version": 6,
+  "generated_at_ms": 1786190392729,
   "graph": {
     "schema_version": 1,
     "id": "pir_aeromesh-hld",
@@ -505,6 +505,7 @@
     "runtime_metadata": {
       "telemetry_enabled": false,
       "overlays": {
+        "diagram_view": "hld",
         "hld_projection": "architecture",
         "hld_edge_labels": {
           "hld_user::hld::out|hld_cloud::hld::in": "View Data / Configure",
@@ -527,8 +528,7 @@
           "hld_imu_50hz::hld::out|hld_storage_manager::hld::in": "Data Flow",
           "hld_wifi::hld::out|hld_internet::hld::in": "Internet Access",
           "hld_cloud::hld::out|hld_internet::hld::in": "Cloud Route"
-        },
-        "diagram_view": "hld"
+        }
       }
     }
   },

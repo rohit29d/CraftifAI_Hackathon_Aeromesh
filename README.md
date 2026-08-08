@@ -8,8 +8,12 @@ The system continuously reads motion data from the MPU6050 via high-speed I2C co
 
 When a turbulence event occurs, the system uses Wi-Fi to send alerts to a remote HTTP endpoint, utilizing internal cooldown mechanisms to prevent spamming. An onboard RGB LED provides real-time visual status updates to the user.
 
+<<<<<<< HEAD
 Additionally, we successfully track the flight device's trajectory and orientation in real-time over WebSockets.
 > **Note on Edge AI Integration:** On-device machine learning inference was planned to allow the device to make real-time decisions on its own in bad weather - highly turbulent cases and was also acheieved on the laptop but could not be implemented on the microcontroller due to time constraints and build challenges regarding TensorFlow within the ESP-IDF environment.
+=======
+Additionally, we successfully track the flight device's trajectory and orientation in real-time over WebSockets. We also successfully run full Edge AI on-device inference using TensorFlow to analyze the motion data directly on the ESP32.
+>>>>>>> 93b5730 (full output)
 
 ## Features
 
@@ -18,6 +22,7 @@ Additionally, we successfully track the flight device's trajectory and orientati
 - **HTTP Alert System:** Sends alerts to a remote HTTP endpoint with internal cooldown mechanisms.
 - **RGB LED Feedback:** Onboard RGB LED indicator for quick visual status updates.
 - **WebSocket Telemetry:** Enables real-time tracking of the flight device's trajectory and orientation.
+- **Edge AI Integration:** On-device machine learning inference to analyze motion data using TensorFlow.
 - **ESP-IDF Framework:** Built using the official Espressif IoT Development Framework (ESP-IDF) for maximum performance and reliability.
 
 ## Hardware Configuration
@@ -62,3 +67,4 @@ aeromesh/
 ### Videos
 - [Video Demonstration 1](./aeromesh_media/VID_20260808_162605257.mp4)
 - [Video Demonstration 2](./aeromesh_media/VID_20260808_163537660.mp4)
+- [Video Demonstration 3](./aeromesh_media/VID_20260808_173541577.mp4)

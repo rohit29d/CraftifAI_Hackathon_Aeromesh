@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['imu_5fbus_0',['imu_bus',['../app_8c.html#ac5639083334f2f203d8c11b2ae7c96b7',1,'app.c']]],
-  ['imu_5fdev_1',['imu_dev',['../app_8c.html#a279f57f8a9bc69cfeee434b7f17fdbbd',1,'app.c']]],
-  ['imu_5finit_2',['imu_init',['../app_8c.html#a6f20084f95051e1f92d1f8cbc12b6c7b',1,'app.c']]],
-  ['imu_5fread_3',['imu_read',['../app_8c.html#a30ebaa354b01c5dc7335100f9ac45bc4',1,'app.c']]],
-  ['imu_5fready_4',['imu_ready',['../app_8c.html#a79426d34b54a74f3fb3099eee517ec00',1,'app.c']]],
-  ['imu_5fsample_5ft_5',['imu_sample_t',['../structimu__sample__t.html',1,'']]],
-  ['imu_5fwrite_6',['imu_write',['../app_8c.html#acd95d72c21540b773e5c1450f150bb06',1,'app.c']]]
+  ['hardware_20and_20configuration_0',['Hardware and configuration',['../index.html#autotoc_md1',1,'']]],
+  ['helpers_2ec_1',['helpers.c',['../helpers_8c.html',1,'']]],
+  ['helpers_2eh_2',['helpers.h',['../helpers_8h.html',1,'']]],
+  ['html_5fpage_3',['html_page',['../app_8cpp.html#a63e449204286c4935c24aab9ec9bf7b4',1,'app.cpp']]],
+  ['http_5fserver_4',['http_server',['../app_8cpp.html#a5030056dc8d84d954e30fce0f40944f8',1,'app.cpp']]]
 ];

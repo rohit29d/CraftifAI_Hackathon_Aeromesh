@@ -33,7 +33,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
   <td id="projectalign">
    <div id="projectname">AeroMesh Edge AI Turbulence Monitor
    </div>
-   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, estimates orientation, publishes WebSocket telemetry, and sends rate-limited severe-turbulence HTTP alerts.</div>
+   <div id="projectbrief">ESP32-C3 firmware samples an MPU6050 at 50 Hz, runs Edge Impulse turbulence classification, drives a WS2812B status LED, publishes WebSocket telemetry, and emits CSV sensor data.</div>
   </td>
  </tr>
  </tbody>
@@ -141,7 +141,7 @@ aeromesh</h1>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
 Layout</h1>
 <ul>
-<li><span class="tt">app/</span> — application entry/orchestration (<span class="tt"><a class="el" href="app_8c.html#af0c94d79193624994df85c52e2e30ca4">app_start()</a></span> in <span class="tt"><a class="el" href="app_8c.html">app.c</a></span>); includes service headers only.</li>
+<li><span class="tt">app/</span> — application entry/orchestration (<span class="tt"><a class="el" href="app_8cpp.html#af0c94d79193624994df85c52e2e30ca4">app_start()</a></span> in <span class="tt">app.c</span>); includes service headers only.</li>
 <li><span class="tt">interfaces/</span> — vendor-neutral contracts (e.g. <span class="tt">*_if.h</span>) that platforms implement.</li>
 <li><span class="tt">platforms/</span> — vendor/platform-specific implementations; ESP-IDF (<span class="tt">esp_*</span>, <span class="tt">driver/*</span>) code lives here.</li>
 <li><span class="tt">services/</span>, <span class="tt">modules/</span> — vendor-agnostic application logic.</li>
@@ -149,7 +149,12 @@ Layout</h1>
 <li><span class="tt">utils/</span> — logging and helpers.</li>
 <li><span class="tt">tests/</span>, <span class="tt">scripts/</span>, <span class="tt">docs/</span> — supporting material (expand these as the project grows).</li>
 </ul>
-<p>The ESP-IDF entry point <span class="tt">app_main()</span> lives once in <span class="tt">../main/entry.c</span> and only calls <span class="tt"><a class="el" href="app_8c.html#af0c94d79193624994df85c52e2e30ca4">app_start()</a></span>. The <span class="tt">main/</span> component is generated build glue — edit the <span class="tt">firmware/</span> tree, not <span class="tt">main/</span>. </p>
+<p>The ESP-IDF entry point <span class="tt">app_main()</span> lives once in <span class="tt">../main/entry.c</span> and only calls <span class="tt"><a class="el" href="app_8cpp.html#af0c94d79193624994df85c52e2e30ca4">app_start()</a></span>. The <span class="tt">main/</span> component is generated build glue — edit the <span class="tt">firmware/</span> tree, not <span class="tt">main/</span>.</p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
+Data collection and RGB status LED</h1>
+<p>The sensor task emits one CSV row every 20 ms using:</p>
+<p><span class="tt">timestamp_ms,roll,pitch,yaw</span></p>
+<p>The onboard WS2812B RGB LED on GPIO8 indicates turbulence state: green for Stable, yellow for Light Chop, and red for Severe Turbulence. The <span class="tt">espressif/led_strip</span> managed component is declared in <span class="tt">main/idf_component.yml</span> and required by the main component. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

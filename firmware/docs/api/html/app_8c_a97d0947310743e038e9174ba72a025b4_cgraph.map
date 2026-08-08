@@ -1,7 +1,0 @@
-<map id="start_server" name="start_server">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,96,57"/>
-<area shape="rect" id="Node000002" href="$app_8c.html#adb6a96de937f2cf239b73792fd3e649c" title=" " alt="" coords="144,5,236,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,33,131,29,126,31,97,38"/>
-<area shape="rect" id="Node000003" href="$app_8c.html#abc27e4e0bae8202401de3ae3400eeb65" title=" " alt="" coords="146,56,234,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,50,133,58,128,59,96,55"/>
-</map>

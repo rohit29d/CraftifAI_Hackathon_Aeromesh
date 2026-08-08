@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['html_5fpage_0',['html_page',['../app_8c.html#a63e449204286c4935c24aab9ec9bf7b4',1,'app.c']]],
-  ['http_5fserver_1',['http_server',['../app_8c.html#a5030056dc8d84d954e30fce0f40944f8',1,'app.c']]]
+  ['gx_0',['gx',['../structimu__sample__t.html#a14c6ee4468b665f907da13abc5ac5258',1,'imu_sample_t']]],
+  ['gy_1',['gy',['../structimu__sample__t.html#a61df2874e79c86f2d1315efe43c5afa2',1,'imu_sample_t']]],
+  ['gz_2',['gz',['../structimu__sample__t.html#a9a631f640a54c64a5c1afa975557ccd2',1,'imu_sample_t']]]
 ];

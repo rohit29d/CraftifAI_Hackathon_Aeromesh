@@ -6,6 +6,7 @@ Doxygen version used: 1.17.0 (65a43c0aba45cc23b3ca11b6b5334d4eea931726)
 Searching for include files...
 Searching for example files...
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/aeromesh_media
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles
@@ -16,6 +17,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/tmp
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/bootloader.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/CMakeScratch
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/git-data
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/pkgRedirects
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/config
@@ -114,6 +116,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX/tmp
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/aeromesh.elf.dir
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/bootloader.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/CMakeScratch
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/git-data
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/pkgRedirects
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/config
@@ -134,6 +137,99 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/classifier
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/BayesFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/InterpolationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/QuaternionMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ReshapeFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/SVDFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/dct
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/image
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/kissfft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ambiq
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/android
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/arduino
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/brickml
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ceva-npn
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/clib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/misc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/fixed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/activation_functions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/basic_math
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/convolution
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/fully_connected
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/pooling
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/softmax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ethos-core-driver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ethos-core-driver/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/himax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/himax-we2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/iar
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/infineon-psoc62
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/mbed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/mingw32
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/particle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/posix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/raspberry
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/renesas-ra
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/seeed-vision-ai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/silabs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/sony
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/stm32-cubeai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/synaptics
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ti
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/core/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels/custom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/tflite-model
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
@@ -450,6 +546,141 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/gdbinit
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/log
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/inferencing_engines
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/postprocessing
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/postprocessing/alignment
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/postprocessing/tinyEKF
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/cmake
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/cmake/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/Core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/Core/Include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Include/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/PrivateInclude
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/BayesFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/InterpolationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/QuaternionMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ReshapeFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/SVDFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/dct
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/dsp_engines
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/image
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/kissfft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/spectral
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/speechpy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ambiq
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/android
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/arduino
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/brickml
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ceva-npn
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/clib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/misc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/fixed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/activation_functions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/basic_math
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/convolution
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/fully_connected
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/pooling
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/softmax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ethos-core-driver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ethos-core-driver/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ethos-core-driver/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/himax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/himax-we2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/iar
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/infineon-psoc62
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/mbed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/mingw32
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/particle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/posix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/raspberry
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/renesas-ra
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/seeed-vision-ai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/silabs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/sony
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/stm32-cubeai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/synaptics
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ti
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/core/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/core/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/custom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/optimized
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/micro
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/micro/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/schema
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/bin
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/bin/emsdp_em11d_em9d_dfss
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/bin/emsdp_em11d_em9d_dfss/release
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/include/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/flatbuffers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/flatbuffers/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/gemmlowp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/gemmlowp/fixedpoint
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/gemmlowp/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/incbin
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/ruy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/ruy/ruy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/ruy/ruy/profiler
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/model-parameters
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/tflite-model
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/app
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/configs
@@ -480,6 +711,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/mana
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/src
 Searching for images...
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/aeromesh_media
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles
@@ -490,6 +722,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/tmp
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/bootloader.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/CMakeScratch
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/git-data
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/pkgRedirects
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/config
@@ -588,6 +821,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX/tmp
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/aeromesh.elf.dir
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/bootloader.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/CMakeScratch
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/git-data
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/pkgRedirects
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/config
@@ -608,6 +842,99 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/classifier
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/BayesFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/InterpolationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/QuaternionMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ReshapeFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/SVDFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/dct
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/image
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/kissfft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ambiq
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/android
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/arduino
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/brickml
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ceva-npn
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/clib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/misc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/fixed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/activation_functions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/basic_math
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/convolution
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/fully_connected
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/pooling
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/softmax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ethos-core-driver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ethos-core-driver/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/himax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/himax-we2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/iar
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/infineon-psoc62
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/mbed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/mingw32
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/particle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/posix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/raspberry
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/renesas-ra
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/seeed-vision-ai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/silabs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/sony
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/stm32-cubeai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/synaptics
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ti
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/core/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels/custom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/tflite-model
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
@@ -924,6 +1251,141 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/gdbinit
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/log
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/inferencing_engines
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/postprocessing
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/postprocessing/alignment
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/classifier/postprocessing/tinyEKF
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/cmake
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/cmake/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/Core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/Core/Include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Include/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/PrivateInclude
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/BayesFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/InterpolationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/QuaternionMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/ReshapeFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/CMSIS/NN/Source/SVDFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/dct
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/dsp_engines
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/image
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/kissfft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/spectral
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/dsp/speechpy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ambiq
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/android
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/arduino
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/brickml
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ceva-npn
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/clib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/misc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/fixed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/activation_functions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/basic_math
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/convolution
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/fully_connected
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/pooling
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/espressif/ESP-NN/src/softmax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ethos-core-driver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ethos-core-driver/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ethos-core-driver/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/himax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/himax-we2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/iar
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/infineon-psoc62
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/mbed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/mingw32
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/particle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/posix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/raspberry
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/renesas-ra
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/seeed-vision-ai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/silabs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/sony
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/stm32-cubeai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/synaptics
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/ti
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/porting/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/core/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/core/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/custom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/optimized
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/micro
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/micro/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/tensorflow/lite/schema
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/bin
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/bin/emsdp_em11d_em9d_dfss
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/bin/emsdp_em11d_em9d_dfss/release
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/arc_mli_package/include/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/flatbuffers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/flatbuffers/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/gemmlowp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/gemmlowp/fixedpoint
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/gemmlowp/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/incbin
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/ruy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/ruy/ruy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/edge-impulse-sdk/third_party/ruy/ruy/profiler
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/model-parameters
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/components/edge_impulse/tflite-model
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/app
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/configs
@@ -970,6 +1432,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/tmp
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/bootloader.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/CMakeScratch
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/git-data
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/pkgRedirects
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/config
@@ -1068,6 +1531,7 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX/tmp
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/aeromesh.elf.dir
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/bootloader.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/CMakeScratch
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/git-data
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/pkgRedirects
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/config
@@ -1088,6 +1552,99 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/classifier
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/BayesFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/InterpolationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/QuaternionMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/ReshapeFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/CMSIS/NN/Source/SVDFunctions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/dct
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/image
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/dsp/kissfft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ambiq
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/android
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/arduino
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/brickml
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ceva-npn
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/clib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/common/misc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/fixed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/float
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/activation_functions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/basic_math
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/convolution
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/fully_connected
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/pooling
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/espressif/ESP-NN/src/softmax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ethos-core-driver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ethos-core-driver/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/himax
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/himax-we2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/iar
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/infineon-psoc62
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/mbed
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/mingw32
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/particle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/posix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/raspberry
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/renesas-ra
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/seeed-vision-ai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/silabs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/sony
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/stm32-cubeai
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/synaptics
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/ti
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/porting/zephyr
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/core/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels/custom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/kernels/internal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro/kernels
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/edge-impulse-sdk/tensorflow/lite/micro/memory_planner
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/edge_impulse/CMakeFiles/__idf_edge_impulse.dir/tflite-model
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
@@ -1404,6 +1961,75 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/buil
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/gdbinit
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/log
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/hooks
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/info
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/cache
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/cache/locks
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/cache/locks/refs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/cache/locks/refs/heads
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/cache/locks/refs/heads/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/objects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/objects/9c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/objects/9c/12
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/objects/cb
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/objects/cb/9d
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/lfs/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/logs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/logs/refs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/logs/refs/heads
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/logs/refs/remotes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/logs/refs/remotes/origin
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/00
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/03
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/10
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/11
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/19
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/1c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/21
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/2c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/30
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/31
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/3b
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/45
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/47
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/4b
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/4c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/55
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/5f
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/61
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/64
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/7e
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/85
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/86
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/87
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/8b
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/8f
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/92
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/99
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/a3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/b6
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/bd
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/be
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/c5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/c7
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/d3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/d4
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/dc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/df
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/e0
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/e2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/e8
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/f8
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/info
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/objects/pack
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/refs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/refs/heads
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/refs/remotes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/refs/remotes/origin
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/.git/refs/tags
 Searching INPUT for files to process...
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/app
@@ -1421,8 +2047,8 @@ Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firm
 Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger
 Reading and parsing tag files
 Parsing files
-Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.c...
-Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.c...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.cpp...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.cpp...
 Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.h...
 Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.h...
 Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/app_config.h...
@@ -1505,7 +2131,7 @@ Generating style sheet...
 Generating search indices...
 Generating example documentation...
 Generating file sources...
-Generating code for file firmware/app/app.c...
+Generating code for file firmware/app/app.cpp...
 Generating code for file firmware/app/app.h...
 Generating code for file firmware/configs/app_config.h...
 Generating code for file firmware/configs/build_config.h...
@@ -1517,10 +2143,12 @@ Generating code for file firmware/utils/helpers/helpers.h...
 Generating code for file firmware/utils/logger/logger.c...
 Generating code for file firmware/utils/logger/logger.h...
 Generating file documentation...
-Generating docs for file firmware/app/app.c...
+Generating docs for file firmware/app/app.cpp...
 Generating caller graph for function alert_task
 Generating call graph for function app_start
+Generating call graph for function classify_turbulence
 Generating caller graph for function classify_turbulence
+Generating caller graph for function ei_signal_get_data
 Generating call graph for function imu_init
 Generating caller graph for function imu_init
 Generating caller graph for function imu_read
@@ -1530,6 +2158,8 @@ Generating call graph for function sensor_task
 Generating caller graph for function sensor_task
 Generating call graph for function start_server
 Generating caller graph for function start_server
+Generating caller graph for function status_led_init
+Generating caller graph for function status_led_set_state
 Generating caller graph for function websocket_task
 Generating call graph for function wifi_event
 Generating caller graph for function wifi_event
@@ -1585,67 +2215,72 @@ writing tag file...
 Running plantuml with JAVA...
 Running mermaid (mmdc)...
 Running dot...
-Generating 36 dot graphs using 9 parallel threads with batch size 50...
-Finished running dot for graphs 1-4/36
-Finished running dot for graphs 5-8/36
-Finished running dot for graphs 9-12/36
-Finished running dot for graphs 13-16/36
-Finished running dot for graphs 17-20/36
-Finished running dot for graphs 21-24/36
-Finished running dot for graphs 25-28/36
-Finished running dot for graphs 29-32/36
-Finished running dot for graphs 33-36/36
-Patching output file 1/51
-Patching output file 2/51
-Patching output file 3/51
-Patching output file 4/51
-Patching output file 5/51
-Patching output file 6/51
-Patching output file 7/51
-Patching output file 8/51
-Patching output file 9/51
-Patching output file 10/51
-Patching output file 11/51
-Patching output file 12/51
-Patching output file 13/51
-Patching output file 14/51
-Patching output file 15/51
-Patching output file 16/51
-Patching output file 17/51
-Patching output file 18/51
-Patching output file 19/51
-Patching output file 20/51
-Patching output file 21/51
-Patching output file 22/51
-Patching output file 23/51
-Patching output file 24/51
-Patching output file 25/51
-Patching output file 26/51
-Patching output file 27/51
-Patching output file 28/51
-Patching output file 29/51
-Patching output file 30/51
-Patching output file 31/51
-Patching output file 32/51
-Patching output file 33/51
-Patching output file 34/51
-Patching output file 35/51
-Patching output file 36/51
-Patching output file 37/51
-Patching output file 38/51
-Patching output file 39/51
-Patching output file 40/51
-Patching output file 41/51
-Patching output file 42/51
-Patching output file 43/51
-Patching output file 44/51
-Patching output file 45/51
-Patching output file 46/51
-Patching output file 47/51
-Patching output file 48/51
-Patching output file 49/51
-Patching output file 50/51
-Patching output file 51/51
-type lookup cache used 109/262144 hits=490 misses=244
-symbol lookup cache used 139/262144 hits=213 misses=139
+Generating 41 dot graphs using 9 parallel threads with batch size 50...
+Finished running dot for graphs 1-5/41
+Finished running dot for graphs 6-10/41
+Finished running dot for graphs 11-15/41
+Finished running dot for graphs 16-20/41
+Finished running dot for graphs 21-25/41
+Finished running dot for graphs 26-29/41
+Finished running dot for graphs 30-33/41
+Finished running dot for graphs 34-37/41
+Finished running dot for graphs 38-41/41
+Patching output file 1/56
+Patching output file 2/56
+Patching output file 3/56
+Patching output file 4/56
+Patching output file 5/56
+Patching output file 6/56
+Patching output file 7/56
+Patching output file 8/56
+Patching output file 9/56
+Patching output file 10/56
+Patching output file 11/56
+Patching output file 12/56
+Patching output file 13/56
+Patching output file 14/56
+Patching output file 15/56
+Patching output file 16/56
+Patching output file 17/56
+Patching output file 18/56
+Patching output file 19/56
+Patching output file 20/56
+Patching output file 21/56
+Patching output file 22/56
+Patching output file 23/56
+Patching output file 24/56
+Patching output file 25/56
+Patching output file 26/56
+Patching output file 27/56
+Patching output file 28/56
+Patching output file 29/56
+Patching output file 30/56
+Patching output file 31/56
+Patching output file 32/56
+Patching output file 33/56
+Patching output file 34/56
+Patching output file 35/56
+Patching output file 36/56
+Patching output file 37/56
+Patching output file 38/56
+Patching output file 39/56
+Patching output file 40/56
+Patching output file 41/56
+Patching output file 42/56
+Patching output file 43/56
+Patching output file 44/56
+Patching output file 45/56
+Patching output file 46/56
+Patching output file 47/56
+Patching output file 48/56
+Patching output file 49/56
+Patching output file 50/56
+Patching output file 51/56
+Patching output file 52/56
+Patching output file 53/56
+Patching output file 54/56
+Patching output file 55/56
+Patching output file 56/56
+type lookup cache used 119/262144 hits=490 misses=254
+symbol lookup cache used 165/262144 hits=266 misses=165
 finished...

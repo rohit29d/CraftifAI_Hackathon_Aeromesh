@@ -1,5 +1,5 @@
 <map id="firmware/app/app.h" name="firmware/app/app.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,138,32"/>
-<area shape="rect" id="Node000002" href="$app_8c.html" title=" " alt="" coords="5,80,138,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,46,74,80,69,79,70,50"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="12,5,145,32"/>
+<area shape="rect" id="Node000002" href="$app_8cpp.html" title=" " alt="" coords="5,80,152,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,46,81,80,76,79,77,50"/>
 </map>

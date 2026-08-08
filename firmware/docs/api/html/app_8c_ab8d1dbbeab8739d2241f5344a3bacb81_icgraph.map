@@ -1,7 +1,0 @@
-<map id="classify_turbulence" name="classify_turbulence">
-<area shape="rect" id="Node000001" title=" " alt="" coords="269,5,402,32"/>
-<area shape="rect" id="Node000002" href="$app_8c.html#a63cdfab3bfe8a0b63913aeab946d5ffd" title=" " alt="" coords="129,5,221,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,19,221,21,221,16,256,19"/>
-<area shape="rect" id="Node000003" href="$app_8c.html#af0c94d79193624994df85c52e2e30ca4" title=" " alt="" coords="5,5,81,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,19,81,21,81,16,116,18"/>
-</map>

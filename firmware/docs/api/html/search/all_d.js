@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['sample_5fmutex_0',['sample_mutex',['../app_8c.html#a860338d52d0aa23cef058ee503685a24',1,'app.c']]],
-  ['sensor_5ftask_1',['sensor_task',['../app_8c.html#a63cdfab3bfe8a0b63913aeab946d5ffd',1,'app.c']]],
-  ['source_20layout_2',['Source layout',['../index.html#autotoc_md3',1,'']]],
-  ['start_5fserver_3',['start_server',['../app_8c.html#a97d0947310743e038e9174ba72a025b4',1,'app.c']]],
-  ['state_4',['state',['../structimu__sample__t.html#a91fdeb1adc3ac26176743509522063cb',1,'imu_sample_t']]]
+  ['readme_2emd_0',['README.md',['../README_8md.html',1,'']]],
+  ['rgb_20status_20led_1',['Data collection and RGB status LED',['../dir_d9edf6c004b4a7ff14fe9ae7a92214ee.html#autotoc_md6',1,'']]],
+  ['roll_2',['roll',['../structimu__sample__t.html#a698967ae2f8849b6c0eb7694a142220b',1,'imu_sample_t']]],
+  ['root_5fhandler_3',['root_handler',['../app_8cpp.html#adb6a96de937f2cf239b73792fd3e649c',1,'app.cpp']]],
+  ['runtime_4',['Build and runtime',['../index.html#autotoc_md2',1,'']]]
 ];
