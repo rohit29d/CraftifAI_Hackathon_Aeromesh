@@ -1,0 +1,707 @@
+{
+  "schema_version": "1.0.0",
+  "view": "sequence",
+  "revision": "3d47ab976b37f0a3a40510cdcd759a50",
+  "graph_version": 4,
+  "generated_at_ms": 1786187322464,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_aeromesh-sequence",
+    "name": "aeromesh topology — Sequence",
+    "description": "Execution and initialization order",
+    "nodes": [
+      {
+        "id": "boot",
+        "node_type": "system_init",
+        "label": "1. Boot / app_main",
+        "description": "Bootstraps firmware startup and initializes core subsystems.",
+        "ports": [
+          {
+            "id": "boot::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "boot::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "target": "esp32c3"
+        },
+        "execution": {},
+        "visual": {
+          "x": 0.0,
+          "y": 80.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "imu_50hz",
+        "node_type": "rtos_task",
+        "label": "2. Task imu_50hz",
+        "description": "Executes RTOS loop logic for imu_50hz.",
+        "ports": [
+          {
+            "id": "imu_50hz::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "imu_50hz::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "imu_50hz",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 320.0,
+          "y": 80.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "ws_20hz",
+        "node_type": "rtos_task",
+        "label": "3. Task ws_20hz",
+        "description": "Executes RTOS loop logic for ws_20hz.",
+        "ports": [
+          {
+            "id": "ws_20hz::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "ws_20hz::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "ws_20hz",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 640.0,
+          "y": 80.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "http_alert",
+        "node_type": "rtos_task",
+        "label": "4. Task http_alert",
+        "description": "Executes RTOS loop logic for http_alert.",
+        "ports": [
+          {
+            "id": "http_alert::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "http_alert::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "http_alert",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 960.0,
+          "y": 80.0,
+          "layer": 3
+        }
+      },
+      {
+        "id": "app_task",
+        "node_type": "rtos_task",
+        "label": "5. Task app_task",
+        "description": "Executes RTOS loop logic for app_task.",
+        "ports": [
+          {
+            "id": "app_task::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "app_task::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "app_task",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 20.0
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 20.0
+        },
+        "visual": {
+          "x": 1280.0,
+          "y": 80.0,
+          "layer": 4
+        }
+      },
+      {
+        "id": "wifi",
+        "node_type": "wifi_manager",
+        "label": "6. WiFi",
+        "description": "Manages Wi-Fi connectivity for SSID `ROHIT2IN1`.",
+        "ports": [
+          {
+            "id": "wifi::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "wifi::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "mode": "station",
+          "ssid": "ROHIT2IN1",
+          "password": "Rohit0707"
+        },
+        "execution": {},
+        "visual": {
+          "x": 1600.0,
+          "y": 80.0,
+          "layer": 5
+        }
+      },
+      {
+        "id": "http_client",
+        "node_type": "http_client",
+        "label": "7. HTTP",
+        "description": "Performs outbound HTTP requests for remote services.",
+        "ports": [
+          {
+            "id": "http_client::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "http_client::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "method": "GET",
+          "timeout_ms": 5000
+        },
+        "execution": {},
+        "visual": {
+          "x": 1920.0,
+          "y": 80.0,
+          "layer": 6
+        }
+      },
+      {
+        "id": "i2c_device",
+        "node_type": "i2c_device",
+        "label": "8. I2C Device",
+        "description": "Represents an I2C peripheral with mapped bus pins.",
+        "ports": [
+          {
+            "id": "i2c_device::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "i2c_device::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "sda_pin": 21,
+          "scl_pin": 22,
+          "address": "0x68",
+          "clock_hz": 100000
+        },
+        "execution": {},
+        "visual": {
+          "x": 2240.0,
+          "y": 80.0,
+          "layer": 7
+        }
+      },
+      {
+        "id": "storage_manager",
+        "node_type": "storage_manager",
+        "label": "9. Storage Manager",
+        "description": "Persists runtime state and configuration data.",
+        "ports": [
+          {
+            "id": "storage_manager::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "storage_manager::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "backend": "nvs",
+          "namespace": "app"
+        },
+        "execution": {},
+        "visual": {
+          "x": 2560.0,
+          "y": 80.0,
+          "layer": 8
+        }
+      },
+      {
+        "id": "timer_node",
+        "node_type": "timer_node",
+        "label": "10. Timer",
+        "description": "Schedules periodic callbacks for time-based workflow.",
+        "ports": [
+          {
+            "id": "timer_node::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "timer_node::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "timer_name": "periodic_timer",
+          "period_ms": 1000.0,
+          "auto_reload": true
+        },
+        "execution": {
+          "period_ms": 1000.0
+        },
+        "visual": {
+          "x": 2880.0,
+          "y": 80.0,
+          "layer": 9
+        }
+      },
+      {
+        "id": "logger",
+        "node_type": "logger",
+        "label": "11. Logger",
+        "description": "Emits structured runtime logs for diagnostics.",
+        "ports": [
+          {
+            "id": "logger::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "logger::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "tag": "APP",
+          "level": "info"
+        },
+        "execution": {},
+        "visual": {
+          "x": 3200.0,
+          "y": 80.0,
+          "layer": 10
+        }
+      },
+      {
+        "id": "_i2c",
+        "node_type": "i2c_device",
+        "label": "12. APP I2C Device",
+        "description": "Represents an I2C peripheral with mapped bus pins.",
+        "ports": [
+          {
+            "id": "_i2c::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "_i2c::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "sda_pin": 21,
+          "scl_pin": 22,
+          "address": "0x68",
+          "clock_hz": 400000
+        },
+        "execution": {},
+        "visual": {
+          "x": 3520.0,
+          "y": 80.0,
+          "layer": 11
+        }
+      },
+      {
+        "id": "_http",
+        "node_type": "http_client",
+        "label": "13. APP HTTP Client",
+        "description": "Performs outbound HTTP requests for remote services.",
+        "ports": [
+          {
+            "id": "_http::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "_http::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "method": "GET",
+          "timeout_ms": 5000
+        },
+        "execution": {},
+        "visual": {
+          "x": 3840.0,
+          "y": 80.0,
+          "layer": 12
+        }
+      },
+      {
+        "id": "mqtt",
+        "node_type": "mqtt_client",
+        "label": "14. MQTT",
+        "description": "Publishes and receives MQTT messages on `esp32/sensor`.",
+        "ports": [
+          {
+            "id": "mqtt::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "mqtt::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "broker_url": "/ws",
+          "topic": "esp32/sensor",
+          "qos": 0
+        },
+        "execution": {},
+        "visual": {
+          "x": 4160.0,
+          "y": 80.0,
+          "layer": 13
+        }
+      },
+      {
+        "id": "event_handler",
+        "node_type": "event_handler",
+        "label": "15. Event Handler",
+        "description": "Queues and dispatches asynchronous firmware events.",
+        "ports": [
+          {
+            "id": "event_handler::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "event_handler::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "event_base": "ESP_EVENT_ANY_BASE",
+          "event_id": -1
+        },
+        "execution": {},
+        "visual": {
+          "x": 4480.0,
+          "y": 80.0,
+          "layer": 14
+        }
+      }
+    ],
+    "connections": [
+      [
+        "boot::out",
+        "imu_50hz::in"
+      ],
+      [
+        "boot::out",
+        "ws_20hz::in"
+      ],
+      [
+        "boot::out",
+        "http_alert::in"
+      ],
+      [
+        "boot::out",
+        "app_task::in"
+      ],
+      [
+        "boot::out",
+        "wifi::in"
+      ],
+      [
+        "boot::out",
+        "http_client::in"
+      ],
+      [
+        "boot::out",
+        "i2c_device::in"
+      ],
+      [
+        "boot::out",
+        "storage_manager::in"
+      ],
+      [
+        "boot::out",
+        "timer_node::in"
+      ],
+      [
+        "boot::out",
+        "logger::in"
+      ],
+      [
+        "boot::out",
+        "_i2c::in"
+      ],
+      [
+        "boot::out",
+        "_http::in"
+      ],
+      [
+        "imu_50hz::out",
+        "http_client::in"
+      ],
+      [
+        "imu_50hz::out",
+        "i2c_device::in"
+      ],
+      [
+        "imu_50hz::out",
+        "storage_manager::in"
+      ],
+      [
+        "imu_50hz::out",
+        "logger::in"
+      ],
+      [
+        "imu_50hz::out",
+        "_i2c::in"
+      ],
+      [
+        "imu_50hz::out",
+        "_http::in"
+      ],
+      [
+        "imu_50hz::out",
+        "mqtt::in"
+      ],
+      [
+        "app_task::out",
+        "wifi::in"
+      ],
+      [
+        "app_task::out",
+        "http_client::in"
+      ],
+      [
+        "app_task::out",
+        "i2c_device::in"
+      ],
+      [
+        "app_task::out",
+        "storage_manager::in"
+      ],
+      [
+        "app_task::out",
+        "timer_node::in"
+      ],
+      [
+        "app_task::out",
+        "logger::in"
+      ],
+      [
+        "app_task::out",
+        "_i2c::in"
+      ],
+      [
+        "app_task::out",
+        "_http::in"
+      ],
+      [
+        "app_task::out",
+        "mqtt::in"
+      ],
+      [
+        "app_task::out",
+        "event_handler::in"
+      ],
+      [
+        "wifi::out",
+        "mqtt::in"
+      ],
+      [
+        "timer_node::out",
+        "event_handler::in"
+      ],
+      [
+        "event_handler::out",
+        "imu_50hz::in"
+      ],
+      [
+        "event_handler::out",
+        "ws_20hz::in"
+      ],
+      [
+        "event_handler::out",
+        "http_alert::in"
+      ],
+      [
+        "event_handler::out",
+        "app_task::in"
+      ]
+    ],
+    "layout": {
+      "orientation": "horizontal",
+      "node_width": 0.0,
+      "layer_gap": 0.0,
+      "node_gap": 0.0
+    }
+  },
+  "mermaid": "sequenceDiagram\n    participant boot as 1. Boot / app_main\n    participant imu_50hz as 2. Task imu_50hz\n    participant ws_20hz as 3. Task ws_20hz\n    participant http_alert as 4. Task http_alert\n    participant app_task as 5. Task app_task\n    participant wifi as 6. WiFi\n    participant http_client as 7. HTTP\n    participant i2c_device as 8. I2C Device\n    participant storage_manager as 9. Storage Manager\n    participant timer_node as 10. Timer\n    participant logger as 11. Logger\n    participant _i2c as 12. APP I2C Device\n    participant _http as 13. APP HTTP Client\n    participant mqtt as 14. MQTT\n    participant event_handler as 15. Event Handler\n    boot->>imu_50hz: spawns\n    boot->>ws_20hz: spawns\n    boot->>http_alert: spawns\n    boot->>app_task: spawns\n    boot->>wifi: initializes\n    boot->>http_client: initializes\n    boot->>i2c_device: initializes\n    boot->>storage_manager: initializes\n    boot->>timer_node: initializes\n    boot->>logger: initializes\n    boot->>_i2c: initializes\n    boot->>_http: initializes\n    imu_50hz->>http_client: data_flow\n    imu_50hz->>i2c_device: data_flow\n    imu_50hz->>storage_manager: data_flow\n    imu_50hz->>logger: data_flow\n    imu_50hz->>_i2c: data_flow\n    imu_50hz->>_http: data_flow\n    imu_50hz->>mqtt: data_flow\n    app_task->>wifi: controls\n    app_task->>http_client: controls\n    app_task->>i2c_device: controls\n    app_task->>storage_manager: controls\n    app_task->>timer_node: controls\n    app_task->>logger: controls\n    app_task->>_i2c: controls\n    app_task->>_http: controls\n    app_task->>mqtt: controls\n    app_task->>event_handler: controls\n    wifi->>mqtt: connects\n    timer_node->>event_handler: signals\n    event_handler->>imu_50hz: triggers\n    event_handler->>ws_20hz: triggers\n    event_handler->>http_alert: triggers\n    event_handler->>app_task: triggers",
+  "title": "Sequence Diagram"
+}

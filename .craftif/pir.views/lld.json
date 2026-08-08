@@ -1,0 +1,713 @@
+{
+  "schema_version": "1.0.0",
+  "view": "lld",
+  "revision": "3d47ab976b37f0a3a40510cdcd759a50",
+  "graph_version": 4,
+  "generated_at_ms": 1786187322462,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_aeromesh-lld",
+    "name": "aeromesh topology — LLD",
+    "description": "Low-level design — FreeRTOS and peripheral/service workflow",
+    "nodes": [
+      {
+        "id": "app_task",
+        "node_type": "rtos_task",
+        "label": "Task app_task",
+        "description": "Executes RTOS loop logic for app_task.",
+        "ports": [
+          {
+            "id": "app_task::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "app_task::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "app_task",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 20.0,
+          "lld_workflow": {
+            "role": "freertos",
+            "node_type": "rtos_task"
+          }
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 20.0
+        },
+        "visual": {
+          "x": -560.0,
+          "y": 0.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "http_alert",
+        "node_type": "rtos_task",
+        "label": "Task http_alert",
+        "description": "Executes RTOS loop logic for http_alert.",
+        "ports": [
+          {
+            "id": "http_alert::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "http_alert::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "http_alert",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0,
+          "lld_workflow": {
+            "role": "freertos",
+            "node_type": "rtos_task"
+          }
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": -232.0,
+          "y": 0.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "imu_50hz",
+        "node_type": "rtos_task",
+        "label": "Task imu_50hz",
+        "description": "Executes RTOS loop logic for imu_50hz.",
+        "ports": [
+          {
+            "id": "imu_50hz::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "imu_50hz::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "imu_50hz",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0,
+          "lld_workflow": {
+            "role": "freertos",
+            "node_type": "rtos_task"
+          }
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 96.0,
+          "y": 0.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "ws_20hz",
+        "node_type": "rtos_task",
+        "label": "Task ws_20hz",
+        "description": "Executes RTOS loop logic for ws_20hz.",
+        "ports": [
+          {
+            "id": "ws_20hz::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "ws_20hz::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "ws_20hz",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0,
+          "lld_workflow": {
+            "role": "freertos",
+            "node_type": "rtos_task"
+          }
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 424.0,
+          "y": 0.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "event_handler",
+        "node_type": "event_handler",
+        "label": "Event Handler",
+        "description": "Queues and dispatches asynchronous firmware events.",
+        "ports": [
+          {
+            "id": "event_handler::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "event_handler::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "event_base": "ESP_EVENT_ANY_BASE",
+          "event_id": -1,
+          "lld_workflow": {
+            "role": "freertos",
+            "node_type": "event_handler"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": -560.0,
+          "y": 320.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "timer_node",
+        "node_type": "timer_node",
+        "label": "Timer",
+        "description": "Schedules periodic callbacks for time-based workflow.",
+        "ports": [
+          {
+            "id": "timer_node::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "timer_node::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "timer_name": "periodic_timer",
+          "period_ms": 1000.0,
+          "auto_reload": true,
+          "lld_workflow": {
+            "role": "freertos",
+            "node_type": "timer_node"
+          }
+        },
+        "execution": {
+          "period_ms": 1000.0
+        },
+        "visual": {
+          "x": -232.0,
+          "y": 320.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "i2c_device",
+        "node_type": "i2c_device",
+        "label": "I2C Device",
+        "description": "Represents an I2C peripheral with mapped bus pins.",
+        "ports": [
+          {
+            "id": "i2c_device::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "i2c_device::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "sda_pin": 21,
+          "scl_pin": 22,
+          "address": "0x68",
+          "clock_hz": 100000,
+          "lld_workflow": {
+            "role": "peripheral",
+            "node_type": "i2c_device"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": 96.0,
+          "y": 320.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "_i2c",
+        "node_type": "i2c_device",
+        "label": "APP I2C Device",
+        "description": "Represents an I2C peripheral with mapped bus pins.",
+        "ports": [
+          {
+            "id": "_i2c::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "_i2c::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "sda_pin": 21,
+          "scl_pin": 22,
+          "address": "0x68",
+          "clock_hz": 400000,
+          "lld_workflow": {
+            "role": "peripheral",
+            "node_type": "i2c_device"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": 424.0,
+          "y": 320.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "storage_manager",
+        "node_type": "storage_manager",
+        "label": "Storage Manager",
+        "description": "Persists runtime state and configuration data.",
+        "ports": [
+          {
+            "id": "storage_manager::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "storage_manager::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "backend": "nvs",
+          "namespace": "app",
+          "lld_workflow": {
+            "role": "service",
+            "node_type": "storage_manager"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": -560.0,
+          "y": 640.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "http_client",
+        "node_type": "http_client",
+        "label": "HTTP",
+        "description": "Performs outbound HTTP requests for remote services.",
+        "ports": [
+          {
+            "id": "http_client::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "http_client::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "method": "GET",
+          "timeout_ms": 5000,
+          "lld_workflow": {
+            "role": "service",
+            "node_type": "http_client"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": -232.0,
+          "y": 640.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "wifi",
+        "node_type": "wifi_manager",
+        "label": "WiFi",
+        "description": "Manages Wi-Fi connectivity for SSID `ROHIT2IN1`.",
+        "ports": [
+          {
+            "id": "wifi::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "wifi::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "mode": "station",
+          "ssid": "ROHIT2IN1",
+          "password": "Rohit0707",
+          "lld_workflow": {
+            "role": "service",
+            "node_type": "wifi_manager"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": 96.0,
+          "y": 640.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "_http",
+        "node_type": "http_client",
+        "label": "APP HTTP Client",
+        "description": "Performs outbound HTTP requests for remote services.",
+        "ports": [
+          {
+            "id": "_http::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "_http::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "method": "GET",
+          "timeout_ms": 5000,
+          "lld_workflow": {
+            "role": "service",
+            "node_type": "http_client"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": 424.0,
+          "y": 640.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "mqtt",
+        "node_type": "mqtt_client",
+        "label": "MQTT",
+        "description": "Publishes and receives MQTT messages on `esp32/sensor`.",
+        "ports": [
+          {
+            "id": "mqtt::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "mqtt::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "broker_url": "/ws",
+          "topic": "esp32/sensor",
+          "qos": 0,
+          "lld_workflow": {
+            "role": "service",
+            "node_type": "mqtt_client"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": -280.0,
+          "y": 960.0,
+          "layer": 3
+        }
+      },
+      {
+        "id": "logger",
+        "node_type": "logger",
+        "label": "Logger",
+        "description": "Emits structured runtime logs for diagnostics.",
+        "ports": [
+          {
+            "id": "logger::ldd::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "logger::ldd::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "tag": "APP",
+          "level": "info",
+          "lld_workflow": {
+            "role": "service",
+            "node_type": "logger"
+          }
+        },
+        "execution": {},
+        "visual": {
+          "x": 48.0,
+          "y": 960.0,
+          "layer": 3
+        }
+      }
+    ],
+    "connections": [
+      [
+        "event_handler::ldd::out",
+        "imu_50hz::ldd::in"
+      ],
+      [
+        "event_handler::ldd::out",
+        "ws_20hz::ldd::in"
+      ],
+      [
+        "event_handler::ldd::out",
+        "http_alert::ldd::in"
+      ],
+      [
+        "event_handler::ldd::out",
+        "app_task::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "http_client::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "i2c_device::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "storage_manager::ldd::in"
+      ],
+      [
+        "timer_node::ldd::out",
+        "event_handler::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "logger::ldd::in"
+      ],
+      [
+        "wifi::ldd::out",
+        "mqtt::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "mqtt::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "_i2c::ldd::in"
+      ],
+      [
+        "imu_50hz::ldd::out",
+        "_http::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "wifi::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "http_client::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "i2c_device::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "storage_manager::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "event_handler::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "timer_node::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "logger::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "mqtt::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "_i2c::ldd::in"
+      ],
+      [
+        "app_task::ldd::out",
+        "_http::ldd::in"
+      ]
+    ],
+    "layout": {
+      "orientation": "vertical",
+      "node_width": 280.0,
+      "layer_gap": 120.0,
+      "node_gap": 48.0
+    },
+    "runtime_metadata": {
+      "telemetry_enabled": false,
+      "overlays": {
+        "ldd_edge_labels": {
+          "app_task::ldd::out|i2c_device::ldd::in": "controls",
+          "event_handler::ldd::out|app_task::ldd::in": "triggers",
+          "app_task::ldd::out|event_handler::ldd::in": "controls",
+          "app_task::ldd::out|_i2c::ldd::in": "controls",
+          "app_task::ldd::out|_http::ldd::in": "controls",
+          "timer_node::ldd::out|event_handler::ldd::in": "signals",
+          "wifi::ldd::out|mqtt::ldd::in": "connects",
+          "imu_50hz::ldd::out|_http::ldd::in": "data_flow",
+          "imu_50hz::ldd::out|logger::ldd::in": "data_flow",
+          "imu_50hz::ldd::out|i2c_device::ldd::in": "data_flow",
+          "app_task::ldd::out|http_client::ldd::in": "controls",
+          "imu_50hz::ldd::out|http_client::ldd::in": "data_flow",
+          "app_task::ldd::out|mqtt::ldd::in": "controls",
+          "app_task::ldd::out|wifi::ldd::in": "controls",
+          "event_handler::ldd::out|http_alert::ldd::in": "triggers",
+          "event_handler::ldd::out|imu_50hz::ldd::in": "triggers",
+          "imu_50hz::ldd::out|mqtt::ldd::in": "data_flow",
+          "imu_50hz::ldd::out|_i2c::ldd::in": "data_flow",
+          "app_task::ldd::out|storage_manager::ldd::in": "controls",
+          "event_handler::ldd::out|ws_20hz::ldd::in": "triggers",
+          "imu_50hz::ldd::out|storage_manager::ldd::in": "data_flow",
+          "app_task::ldd::out|timer_node::ldd::in": "controls",
+          "app_task::ldd::out|logger::ldd::in": "controls"
+        },
+        "diagram_view": "ldd"
+      }
+    }
+  },
+  "mermaid": "flowchart TD\n  subgraph freertos_runtime[\"FreeRTOS\"]\n    app_task[\"Task app_task\"]\n    http_alert[\"Task http_alert\"]\n    imu_50hz[\"Task imu_50hz\"]\n    ws_20hz[\"Task ws_20hz\"]\n    event_handler[\"Event Handler\"]\n    timer_node[\"Timer\"]\n  end\n  _i2c[\"APP I2C Device\"]\n  i2c_device[\"I2C Device\"]\n  storage_manager[\"Storage Manager\"]\n  _http[\"APP HTTP Client\"]\n  http_client[\"HTTP\"]\n  wifi[\"WiFi\"]\n  mqtt[\"MQTT\"]\n  logger[\"Logger\"]\n  app_task --> _http\n  app_task --> _i2c\n  app_task --> event_handler\n  app_task --> http_client\n  app_task --> i2c_device\n  app_task --> logger\n  app_task --> mqtt\n  app_task --> storage_manager\n  app_task --> timer_node\n  app_task --> wifi\n  event_handler --> app_task\n  event_handler --> http_alert\n  event_handler --> imu_50hz\n  event_handler --> ws_20hz\n  imu_50hz --> _http\n  imu_50hz --> _i2c\n  imu_50hz --> http_client\n  imu_50hz --> i2c_device\n  imu_50hz --> logger\n  imu_50hz --> mqtt\n  imu_50hz --> storage_manager\n  timer_node --> event_handler\n  wifi --> mqtt",
+  "title": "Low-Level Design (Firmware Workflow)"
+}

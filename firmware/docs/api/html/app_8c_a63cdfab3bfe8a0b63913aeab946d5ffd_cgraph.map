@@ -1,0 +1,12 @@
+<map id="sensor_task" name="sensor_task">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,98,83"/>
+<area shape="rect" id="Node000002" href="$app_8c.html#ab8d1dbbeab8739d2241f5344a3bacb81" title=" " alt="" coords="146,5,279,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,53,155,36,151,39,98,58"/>
+<area shape="rect" id="Node000003" href="$app_8c.html#a6f20084f95051e1f92d1f8cbc12b6c7b" title=" " alt="" coords="179,107,246,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="97,81,167,104,162,106,96,86"/>
+<area shape="rect" id="Node000004" href="$app_8c.html#a30ebaa354b01c5dc7335100f9ac45bc4" title=" " alt="" coords="328,56,403,83"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="98,67,314,67,313,72,98,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="245,107,312,87,317,86,247,112"/>
+<area shape="rect" id="Node000005" href="$app_8c.html#acd95d72c21540b773e5c1450f150bb06" title=" " alt="" coords="327,107,404,133"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="246,117,314,120,309,120,246,123"/>
+</map>

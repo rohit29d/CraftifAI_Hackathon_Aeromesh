@@ -1,0 +1,5 @@
+# Auto-generated defaults for the standard project layout.
+CONFIG_IDF_TARGET="esp32c3"
+# Harvested from reference example (H1) — feature flags only, no design choices.
+CONFIG_ESP_WIFI_SOFTAP_SUPPORT=n
+CONFIG_HTTPD_WS_SUPPORT=y

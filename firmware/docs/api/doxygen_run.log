@@ -1,0 +1,1651 @@
+Adding custom extension mapping: 'ioc' will be treated as language 'c'
+Adding custom extension mapping: 'ld' will be treated as language 'c'
+Adding custom extension mapping: 's' will be treated as language 'c'
+Adding custom extension mapping: 'asm' will be treated as language 'c'
+Doxygen version used: 1.17.0 (65a43c0aba45cc23b3ca11b6b5334d4eea931726)
+Searching for include files...
+Searching for example files...
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdASM
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdC
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdC/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/bootloader.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/git-data
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/pkgRedirects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/config
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esptool_py
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esptool_py/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_app_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_app_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_security
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_security/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/freertos/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src/noos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main/CMakeFiles/__idf_main.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/newlib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/newlib/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/partition_table/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv/CMakeFiles/__idf_riscv.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles/__idf_soc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/gdbinit
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/src/bootloader-stamp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdASM
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdC
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdC/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/aeromesh.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/bootloader.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/git-data
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/pkgRedirects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/config
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles/__idf_espressif__led_strip.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles/__idf_espressif__led_strip.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esptool_py
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esptool_py/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_bitscrambler
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_bitscrambler/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/deprecated
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/lowpower/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif_stack
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif_stack/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/ld
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/regulatory
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles/__idf_hal.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/tlsf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles/__idf_json.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles/__idf_json.dir/cJSON
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/os
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/debug
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32xx
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/hooks
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/app
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils/helpers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils/logger
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/include/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/aes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/aes/dma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/bignum
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/crypto_shared_gdma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/esp_ds
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/md
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/sha
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/sha/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/pkgconfig
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/pkgconfig/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src/port/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/partition_table/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread/CMakeFiles/__idf_pthread.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles/__idf_soc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs/CMakeFiles/__idf_vfs.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/gdbinit
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/app
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/configs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api/html
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/interfaces
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/platforms
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/scripts
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/services
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/tests
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/docs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/docs/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/interface
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/src
+Searching for images...
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdASM
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdC
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdC/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/bootloader.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/git-data
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/pkgRedirects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/config
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esptool_py
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esptool_py/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_app_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_app_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_security
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_security/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/freertos/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src/noos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main/CMakeFiles/__idf_main.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/newlib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/newlib/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/partition_table/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv/CMakeFiles/__idf_riscv.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles/__idf_soc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/gdbinit
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/src/bootloader-stamp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdASM
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdC
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdC/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/aeromesh.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/bootloader.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/git-data
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/pkgRedirects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/config
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles/__idf_espressif__led_strip.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles/__idf_espressif__led_strip.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esptool_py
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esptool_py/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_bitscrambler
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_bitscrambler/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/deprecated
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/lowpower/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif_stack
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif_stack/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/ld
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/regulatory
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles/__idf_hal.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/tlsf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles/__idf_json.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles/__idf_json.dir/cJSON
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/os
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/debug
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32xx
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/hooks
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/app
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils/helpers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils/logger
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/include/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/aes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/aes/dma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/bignum
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/crypto_shared_gdma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/esp_ds
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/md
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/sha
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/sha/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/pkgconfig
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/pkgconfig/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src/port/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/partition_table/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread/CMakeFiles/__idf_pthread.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles/__idf_soc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs/CMakeFiles/__idf_vfs.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/gdbinit
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/app
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/configs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api/html
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/interfaces
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/platforms
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/scripts
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/services
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/tests
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/docs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/docs/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/interface
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/managed_components/espressif__led_strip/src
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for plantuml files...
+Searching for mermaid files...
+Searching for files to exclude
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api/html
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdASM
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdC
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdC/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/bootloader.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/git-data
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/CMakeFiles/pkgRedirects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/config
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esptool_py
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esptool_py/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_app_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_app_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_hw_support/port/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_security
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_security/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/freertos/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/log/CMakeFiles/__idf_log.dir/src/noos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/main/CMakeFiles/__idf_main.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/newlib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/newlib/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/partition_table/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/riscv/CMakeFiles/__idf_riscv.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles/__idf_soc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader/gdbinit
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/src/bootloader-stamp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/bootloader-prefix/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdASM
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdC
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdC/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/3.30.2/CompilerIdCXX/tmp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/aeromesh.elf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/bootloader.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/git-data
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/CMakeFiles/pkgRedirects
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/config
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/with_key_purposes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles/__idf_espressif__led_strip.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/espressif__led_strip/CMakeFiles/__idf_espressif__led_strip.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esptool_py
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esptool_py/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_bitscrambler
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_bitscrambler/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/deprecated
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/lowpower/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/lowpower
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/lowpower/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_hw_support/port/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif_stack
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_netif_stack/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/ld
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_system/port/soc/esp32c3/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/regulatory
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles/__idf_hal.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/tlsf
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles/__idf_json.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/json/CMakeFiles/__idf_json.dir/cJSON
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/log/CMakeFiles/__idf_log.dir/src/os
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/dhcpserver
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv4
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ipv6
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/netif/ppp/polarssl
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/debug
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/esp32xx
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/freertos
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/hooks
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/app
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils/helpers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/main/CMakeFiles/__idf_main.dir/__/firmware/utils/logger
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/include
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/include/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/aes
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/aes/dma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/bignum
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/crypto_shared_gdma
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/esp_ds
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/md
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/sha
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port/sha/core
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Espressif/esp-idf-release-v5.5/components/mbedtls/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/pkgconfig
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/mbedtls/mbedtls/pkgconfig/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/newlib/src/port/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/partition_table
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/partition_table/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/pthread/CMakeFiles/__idf_pthread.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/riscv/CMakeFiles/__idf_riscv.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles/__idf_soc.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32c3
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/vfs/CMakeFiles/__idf_vfs.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/gdbinit
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/log
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/build/partition_table
+Searching INPUT for files to process...
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/app
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/configs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/api
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/interfaces
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/modules
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/platforms
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/scripts
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/services
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/tests
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers
+Searching for files in directory C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger
+Reading and parsing tag files
+Parsing files
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.c...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.c...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.h...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/app/app.h...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/app_config.h...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/app_config.h...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/build_config.h...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/build_config.h...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/platform_config.h...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/configs/platform_config.h...
+Reading C:/Espressif/projects/my_firmware/aeromesh/firmware/docs/overview.md...
+Reading C:/Espressif/projects/my_firmware/aeromesh/firmware/README.md...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers/helpers.c...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers/helpers.c...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers/helpers.h...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/helpers/helpers.h...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger/logger.c...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger/logger.c...
+Preprocessing C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger/logger.h...
+Parsing file C:/Espressif/projects/my_firmware/aeromesh/firmware/utils/logger/logger.h...
+Building macro definition list...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Building concept list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Associating documentation with concepts...
+Associating documentation with modules...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Warn for undocumented namespaces...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Building requirements list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Computing module relations...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Distributing member group documentation.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Adding requirements...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Computing tooltip texts...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file firmware/app/app.c...
+Generating code for file firmware/app/app.h...
+Generating code for file firmware/configs/app_config.h...
+Generating code for file firmware/configs/build_config.h...
+Generating code for file firmware/configs/platform_config.h...
+Parsing code for file firmware/docs/overview.md...
+Parsing code for file firmware/README.md...
+Generating code for file firmware/utils/helpers/helpers.c...
+Generating code for file firmware/utils/helpers/helpers.h...
+Generating code for file firmware/utils/logger/logger.c...
+Generating code for file firmware/utils/logger/logger.h...
+Generating file documentation...
+Generating docs for file firmware/app/app.c...
+Generating caller graph for function alert_task
+Generating call graph for function app_start
+Generating caller graph for function classify_turbulence
+Generating call graph for function imu_init
+Generating caller graph for function imu_init
+Generating caller graph for function imu_read
+Generating caller graph for function imu_write
+Generating caller graph for function root_handler
+Generating call graph for function sensor_task
+Generating caller graph for function sensor_task
+Generating call graph for function start_server
+Generating caller graph for function start_server
+Generating caller graph for function websocket_task
+Generating call graph for function wifi_event
+Generating caller graph for function wifi_event
+Generating call graph for function wifi_init
+Generating caller graph for function wifi_init
+Generating caller graph for function ws_handler
+Generating docs for file firmware/app/app.h...
+Generating call graph for function app_start
+Generating docs for file firmware/configs/app_config.h...
+Generating docs for file firmware/configs/build_config.h...
+Generating docs for file firmware/configs/platform_config.h...
+Generating docs for file firmware/docs/overview.md...
+Generating docs for file firmware/README.md...
+Generating docs for file firmware/utils/helpers/helpers.c...
+Generating docs for file firmware/utils/helpers/helpers.h...
+Generating docs for file firmware/utils/logger/logger.c...
+Generating docs for file firmware/utils/logger/logger.h...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound imu_sample_t...
+Generating concept documentation...
+Generating module documentation...
+Generating namespace documentation...
+Generating graph info page...
+Generating directory documentation...
+Generating dependency graph for directory firmware/app
+Generating dependency graph for directory firmware/configs
+Generating dependency graph for directory firmware/docs
+Generating dependency graph for directory firmware
+Generating dependency graph for directory firmware/utils/helpers
+Generating dependency graph for directory firmware/utils/logger
+Generating dependency graph for directory firmware/utils
+Generating index page...
+Generating main page...
+Generating page index...
+Generating topic index...
+Generating module index...
+Generating module member index...
+Generating namespace index...
+Generating namespace member index...
+Generating concept index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+Running mermaid (mmdc)...
+Running dot...
+Generating 36 dot graphs using 9 parallel threads with batch size 50...
+Finished running dot for graphs 1-4/36
+Finished running dot for graphs 5-8/36
+Finished running dot for graphs 9-12/36
+Finished running dot for graphs 13-16/36
+Finished running dot for graphs 17-20/36
+Finished running dot for graphs 21-24/36
+Finished running dot for graphs 25-28/36
+Finished running dot for graphs 29-32/36
+Finished running dot for graphs 33-36/36
+Patching output file 1/51
+Patching output file 2/51
+Patching output file 3/51
+Patching output file 4/51
+Patching output file 5/51
+Patching output file 6/51
+Patching output file 7/51
+Patching output file 8/51
+Patching output file 9/51
+Patching output file 10/51
+Patching output file 11/51
+Patching output file 12/51
+Patching output file 13/51
+Patching output file 14/51
+Patching output file 15/51
+Patching output file 16/51
+Patching output file 17/51
+Patching output file 18/51
+Patching output file 19/51
+Patching output file 20/51
+Patching output file 21/51
+Patching output file 22/51
+Patching output file 23/51
+Patching output file 24/51
+Patching output file 25/51
+Patching output file 26/51
+Patching output file 27/51
+Patching output file 28/51
+Patching output file 29/51
+Patching output file 30/51
+Patching output file 31/51
+Patching output file 32/51
+Patching output file 33/51
+Patching output file 34/51
+Patching output file 35/51
+Patching output file 36/51
+Patching output file 37/51
+Patching output file 38/51
+Patching output file 39/51
+Patching output file 40/51
+Patching output file 41/51
+Patching output file 42/51
+Patching output file 43/51
+Patching output file 44/51
+Patching output file 45/51
+Patching output file 46/51
+Patching output file 47/51
+Patching output file 48/51
+Patching output file 49/51
+Patching output file 50/51
+Patching output file 51/51
+type lookup cache used 109/262144 hits=490 misses=244
+symbol lookup cache used 139/262144 hits=213 misses=139
+finished...

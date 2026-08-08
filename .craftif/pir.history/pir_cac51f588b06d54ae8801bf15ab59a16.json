@@ -1,0 +1,485 @@
+{
+  "schema_version": "2.0.0",
+  "id": "pir_aeromesh",
+  "revision": "cac51f588b06d54ae8801bf15ab59a16",
+  "provenance": {
+    "project_path": "C:\\Espressif\\projects\\my_firmware\\aeromesh",
+    "chat_id": "f66dd6c8-76c8-434b-b277-90dddc1dcfd8",
+    "revision": "cac51f588b06d54ae8801bf15ab59a16",
+    "generated_at_ms": 1786177735881,
+    "analyzer_version": "pir_maker-static-0.2.0",
+    "analyzed_files": [
+      "CMakeLists.txt",
+      "firmware/app/app.c",
+      "firmware/app/app.h",
+      "firmware/configs/app_config.h",
+      "firmware/configs/build_config.h",
+      "firmware/configs/platform_config.h",
+      "firmware/utils/helpers/helpers.c",
+      "firmware/utils/helpers/helpers.h",
+      "firmware/utils/logger/logger.c",
+      "firmware/utils/logger/logger.h",
+      "main/CMakeLists.txt",
+      "main/entry.c",
+      "main/firmgen_sources.cmake",
+      "sdkconfig",
+      "sdkconfig.defaults"
+    ],
+    "file_hashes": {
+      "firmware/app/app.h": "bc88844840b4c743283b026f851e00f0",
+      "firmware/utils/helpers/helpers.h": "ec8b635b7e5b55f8aeb8f47c3ff34312",
+      "sdkconfig": "6e01e250f3c7c4ebaa2cf13d16018cbd",
+      "firmware/app/app.c": "6de318e73f38c75aa291216cc7c0b9cc",
+      "CMakeLists.txt": "e77fca945b92cac672a8e1145db82b6f",
+      "firmware/configs/build_config.h": "dd997e9a0a461df28c370a61963fd7e5",
+      "firmware/utils/helpers/helpers.c": "914568ab7415fec17e74f306cbb5ae09",
+      "firmware/configs/platform_config.h": "010b01144dbd2d3fb63f3053b158ab7a",
+      "main/CMakeLists.txt": "0270a2eabf62ffbebb578ae1ec286d6c",
+      "main/entry.c": "86aaa3bc61772628c601798f4d9dea56",
+      "main/firmgen_sources.cmake": "d0d7775936bf3dd66156bb29aaadaca4",
+      "sdkconfig.defaults": "b757060a228df4a9dcbb4cf124fd1b37",
+      "firmware/utils/logger/logger.c": "8e992fef35c9a4678ec38e60902d741d",
+      "firmware/configs/app_config.h": "61b537b868517e7fba4c00fe324b3380",
+      "firmware/utils/logger/logger.h": "2c284c641c88c6a4fff52db62e8d1ea5"
+    }
+  },
+  "approval": {
+    "status": "pending"
+  },
+  "nodes": [
+    {
+      "id": "boot",
+      "node_type": "system_init",
+      "label": "Boot / app_main",
+      "properties": {
+        "target": "esp32c3"
+      },
+      "source_refs": [
+        {
+          "file": "main/entry.c",
+          "confidence": 1.0,
+          "inferred_by": "static"
+        }
+      ],
+      "sync": {
+        "state": "synced",
+        "last_synced_revision": "cac51f588b06d54ae8801bf15ab59a16"
+      },
+      "ownership": {
+        "primary_files": [
+          "main/entry.c"
+        ]
+      },
+      "editable_fields": [
+        "target"
+      ],
+      "layer": "system",
+      "ai_summary": "Bootstraps firmware startup and initializes core subsystems.",
+      "confidence": 1.0,
+      "authority": "agent",
+      "semantic_tags": [],
+      "dependencies": []
+    },
+    {
+      "id": "logger",
+      "node_type": "logger",
+      "label": "Logger",
+      "properties": {
+        "tag": "APP",
+        "level": "info"
+      },
+      "source_refs": [
+        {
+          "file": "firmware/app/app.c",
+          "confidence": 1.0,
+          "inferred_by": "static"
+        }
+      ],
+      "sync": {
+        "state": "synced",
+        "last_synced_revision": "cac51f588b06d54ae8801bf15ab59a16"
+      },
+      "ownership": {
+        "primary_files": [
+          "firmware/app/app.c"
+        ]
+      },
+      "editable_fields": [
+        "tag",
+        "level"
+      ],
+      "layer": "system",
+      "ai_summary": "Emits structured runtime logs for diagnostics.",
+      "confidence": 1.0,
+      "authority": "agent",
+      "semantic_tags": [],
+      "dependencies": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_boot_logger",
+      "source_node_id": "boot",
+      "target_node_id": "logger",
+      "source_port_id": "boot_boot_out_0",
+      "target_port_id": "logger_exec_in_1",
+      "kind": "execution",
+      "confidence": 0.9,
+      "source_refs": [],
+      "semantic_label": "initializes",
+      "validated": false
+    }
+  ],
+  "layers": {
+    "physical": [],
+    "runtime": [],
+    "network": [],
+    "system": [
+      "boot",
+      "logger"
+    ]
+  },
+  "partitions": [],
+  "components": [
+    {
+      "id": "main",
+      "path": "main/CMakeLists.txt",
+      "requires": [
+        "esp_driver_gpio",
+        "esp_timer",
+        "esp_wifi",
+        "esp_event",
+        "nvs_flash",
+        "freertos",
+        "log"
+      ],
+      "source_files": []
+    }
+  ],
+  "summary": {
+    "headline": "Repaired required sequence diagram based on entry shim calling app_start and existing logger component.",
+    "node_count": 0,
+    "edge_count": 0,
+    "warnings": []
+  },
+  "diagrams": {
+    "hld": {
+      "title": "Aeromesh firmware overview (evidence-limited)",
+      "mermaid": "graph TD\n    hld_esp32[\"ESP32 Main Controller\"]\n    hld_logger[\"Logger\"]\n    hld_esp32 -->|Firmware Logic| hld_logger"
+    },
+    "lld": {
+      "title": "Startup control flow (evidence-limited)",
+      "mermaid": "flowchart TD\n  logger[\"Logger\"]"
+    },
+    "sequence": {
+      "title": "Boot to application startup",
+      "mermaid": "sequenceDiagram\n  participant boot as boot\n  participant logger as logger\n\n  boot->>logger: initialize/emit startup log (via app_start)\n  logger-->>boot: log written",
+      "participants": [
+        "boot",
+        "logger"
+      ],
+      "generated_from": [
+        "main/entry.c",
+        "firmware/app/app.c"
+      ]
+    },
+    "hld_graph": {
+      "schema_version": 1,
+      "id": "pir_aeromesh-hld",
+      "name": "aeromesh topology — HLD",
+      "description": "High-level architecture — MCU controller, firmware modules, and integrations",
+      "nodes": [
+        {
+          "id": "hld_esp32",
+          "node_type": "system_init",
+          "label": "ESP32 Main Controller",
+          "description": "Main firmware control node coordinating peripherals, storage, and connectivity.",
+          "ports": [
+            {
+              "id": "hld_esp32::hld::in",
+              "name": "assoc_in",
+              "direction": "input",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "hld_esp32::hld::out",
+              "name": "assoc_out",
+              "direction": "output",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "hld_role": "controller"
+          },
+          "visual": {
+            "x": 0.0,
+            "y": -100.0,
+            "layer": 0
+          }
+        },
+        {
+          "id": "hld_logger",
+          "node_type": "logger",
+          "label": "Logger",
+          "description": "Emits structured runtime logs for diagnostics.",
+          "ports": [
+            {
+              "id": "hld_logger::hld::in",
+              "name": "assoc_in",
+              "direction": "input",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "hld_logger::hld::out",
+              "name": "assoc_out",
+              "direction": "output",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "tag": "APP",
+            "level": "info",
+            "hld_role": "runtime",
+            "source_node_id": "logger"
+          },
+          "execution": {},
+          "visual": {
+            "x": 430.0,
+            "y": -100.0,
+            "layer": 1
+          }
+        }
+      ],
+      "connections": [
+        [
+          "hld_esp32::hld::out",
+          "hld_logger::hld::in"
+        ]
+      ],
+      "layout": {
+        "orientation": "horizontal",
+        "node_width": 280.0,
+        "layer_gap": 150.0,
+        "node_gap": 64.0
+      },
+      "runtime_metadata": {
+        "telemetry_enabled": false,
+        "overlays": {
+          "hld_projection": "architecture",
+          "hld_edge_labels": {
+            "hld_esp32::hld::out|hld_logger::hld::in": "Firmware Logic"
+          },
+          "diagram_view": "hld"
+        }
+      }
+    },
+    "lld_graph": {
+      "schema_version": 1,
+      "id": "pir_aeromesh-lld",
+      "name": "aeromesh topology — LLD",
+      "description": "Low-level design — FreeRTOS and peripheral/service workflow",
+      "nodes": [
+        {
+          "id": "logger",
+          "node_type": "logger",
+          "label": "Logger",
+          "description": "Emits structured runtime logs for diagnostics.",
+          "ports": [
+            {
+              "id": "logger::ldd::in",
+              "name": "assoc_in",
+              "direction": "input",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "logger::ldd::out",
+              "name": "assoc_out",
+              "direction": "output",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "tag": "APP",
+            "level": "info",
+            "lld_workflow": {
+              "role": "service",
+              "node_type": "logger"
+            }
+          },
+          "execution": {},
+          "visual": {
+            "x": -140.0,
+            "y": 0.0,
+            "layer": 0
+          }
+        }
+      ],
+      "connections": [],
+      "layout": {
+        "orientation": "vertical",
+        "node_width": 280.0,
+        "layer_gap": 120.0,
+        "node_gap": 48.0
+      },
+      "runtime_metadata": {
+        "telemetry_enabled": false,
+        "overlays": {
+          "ldd_edge_labels": {},
+          "diagram_view": "ldd"
+        }
+      }
+    },
+    "sequence_graph": {
+      "schema_version": 1,
+      "id": "pir_aeromesh-sequence",
+      "name": "aeromesh topology — Sequence",
+      "description": "Execution and initialization order",
+      "nodes": [
+        {
+          "id": "boot",
+          "node_type": "system_init",
+          "label": "1. Boot / app_main",
+          "description": "Bootstraps firmware startup and initializes core subsystems.",
+          "ports": [
+            {
+              "id": "boot::in",
+              "name": "in",
+              "direction": "input",
+              "datatype": "any",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "boot::out",
+              "name": "out",
+              "direction": "output",
+              "datatype": "any",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "target": "esp32c3"
+          },
+          "execution": {},
+          "visual": {
+            "x": 0.0,
+            "y": 80.0,
+            "layer": 0
+          }
+        },
+        {
+          "id": "logger",
+          "node_type": "logger",
+          "label": "2. Logger",
+          "description": "Emits structured runtime logs for diagnostics.",
+          "ports": [
+            {
+              "id": "logger::in",
+              "name": "in",
+              "direction": "input",
+              "datatype": "any",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "logger::out",
+              "name": "out",
+              "direction": "output",
+              "datatype": "any",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "tag": "APP",
+            "level": "info"
+          },
+          "execution": {},
+          "visual": {
+            "x": 320.0,
+            "y": 80.0,
+            "layer": 1
+          }
+        }
+      ],
+      "connections": [
+        [
+          "boot::out",
+          "logger::in"
+        ]
+      ],
+      "layout": {
+        "orientation": "horizontal",
+        "node_width": 0.0,
+        "layer_gap": 0.0,
+        "node_gap": 0.0
+      }
+    }
+  },
+  "change_log": [],
+  "unresolved": [
+    {
+      "kind": "sparse_extraction",
+      "message": "app_main only calls app_start(); no GPIO/tasks/peripherals visible in provided snippets.",
+      "file": "main/entry.c"
+    },
+    {
+      "kind": "missing_evidence",
+      "message": "Need app_start() implementation details to extract tasks, timers, GPIO, Wi-Fi, and other runtime topology.",
+      "file": "firmware/app/app.c"
+    }
+  ],
+  "read_only": false,
+  "graph_version": 1,
+  "generation": {
+    "mode": "hybrid_refine",
+    "model": "local_openai_proxy/gpt-5.2",
+    "triggered_by": "mount",
+    "analyzed_at_ms": 1786177743148,
+    "input_files": [
+      "CMakeLists.txt",
+      "firmware/app/app.c",
+      "firmware/app/app.h",
+      "firmware/configs/app_config.h",
+      "firmware/configs/build_config.h",
+      "firmware/configs/platform_config.h",
+      "firmware/utils/helpers/helpers.c",
+      "firmware/utils/helpers/helpers.h",
+      "firmware/utils/logger/logger.c",
+      "firmware/utils/logger/logger.h",
+      "main/CMakeLists.txt",
+      "main/entry.c",
+      "main/firmgen_sources.cmake",
+      "sdkconfig",
+      "sdkconfig.defaults"
+    ],
+    "token_usage": {
+      "prompt_tokens": 2500,
+      "completion_tokens": 510
+    }
+  },
+  "sync_metadata": {
+    "project_file": "",
+    "content_hash": "",
+    "pending_patches": []
+  },
+  "validation_state": {
+    "valid": true,
+    "error_count": 0,
+    "warning_count": 0,
+    "validated_at_ms": 1786177743149
+  }
+}

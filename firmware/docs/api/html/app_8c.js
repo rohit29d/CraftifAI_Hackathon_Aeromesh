@@ -1,0 +1,28 @@
+var app_8c =
+[
+    [ "imu_sample_t", "structimu__sample__t.html", "structimu__sample__t" ],
+    [ "alert_task", "app_8c.html#a04a53765a22f6e3632e852b55bb81786", null ],
+    [ "app_start", "app_8c.html#af0c94d79193624994df85c52e2e30ca4", null ],
+    [ "classify_turbulence", "app_8c.html#ab8d1dbbeab8739d2241f5344a3bacb81", null ],
+    [ "imu_init", "app_8c.html#a6f20084f95051e1f92d1f8cbc12b6c7b", null ],
+    [ "imu_read", "app_8c.html#a30ebaa354b01c5dc7335100f9ac45bc4", null ],
+    [ "imu_write", "app_8c.html#acd95d72c21540b773e5c1450f150bb06", null ],
+    [ "root_handler", "app_8c.html#adb6a96de937f2cf239b73792fd3e649c", null ],
+    [ "sensor_task", "app_8c.html#a63cdfab3bfe8a0b63913aeab946d5ffd", null ],
+    [ "start_server", "app_8c.html#a97d0947310743e038e9174ba72a025b4", null ],
+    [ "websocket_task", "app_8c.html#a0573d235e436d5d5c541f14afaa0d2e6", null ],
+    [ "wifi_event", "app_8c.html#a8c6a107d443f58c2eb23ccbdae976af0", null ],
+    [ "wifi_init", "app_8c.html#a745aaa256e0f8636cd5d7b63e3035706", null ],
+    [ "ws_handler", "app_8c.html#abc27e4e0bae8202401de3ae3400eeb65", null ],
+    [ "alert_queue", "app_8c.html#af74b80a4b6d3f9678489269c8f570473", null ],
+    [ "filter_ready", "app_8c.html#ab2f79e52c93afdc00de2f009ba80d229", null ],
+    [ "html_page", "app_8c.html#a63e449204286c4935c24aab9ec9bf7b4", null ],
+    [ "http_server", "app_8c.html#a5030056dc8d84d954e30fce0f40944f8", null ],
+    [ "imu_bus", "app_8c.html#ac5639083334f2f203d8c11b2ae7c96b7", null ],
+    [ "imu_dev", "app_8c.html#a279f57f8a9bc69cfeee434b7f17fdbbd", null ],
+    [ "imu_ready", "app_8c.html#a79426d34b54a74f3fb3099eee517ec00", null ],
+    [ "last_alert_us", "app_8c.html#ac1c5f650de8e583a2f28d513bea5fd37", null ],
+    [ "latest", "app_8c.html#a0df152d60b56e2dab216fc2c7267faee", null ],
+    [ "sample_mutex", "app_8c.html#a860338d52d0aa23cef058ee503685a24", null ],
+    [ "TAG", "app_8c.html#a5a85b9c772bbeb480b209a3e6ea92b4c", null ]
+];

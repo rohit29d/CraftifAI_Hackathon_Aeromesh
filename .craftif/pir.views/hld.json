@@ -1,0 +1,537 @@
+{
+  "schema_version": "1.0.0",
+  "view": "hld",
+  "revision": "3d47ab976b37f0a3a40510cdcd759a50",
+  "graph_version": 4,
+  "generated_at_ms": 1786187322461,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_aeromesh-hld",
+    "name": "aeromesh topology — HLD",
+    "description": "High-level architecture — MCU controller, firmware modules, and integrations",
+    "nodes": [
+      {
+        "id": "hld_user",
+        "node_type": "user_actor",
+        "label": "Mobile App / Web Dashboard",
+        "description": "External user interface for monitoring data and sending configuration.",
+        "ports": [
+          {
+            "id": "hld_user::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_user::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "hld_role": "user"
+        },
+        "visual": {
+          "x": 0.0,
+          "y": -496.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "hld_cloud",
+        "node_type": "cloud_service",
+        "label": "MQTT Broker / Cloud Service",
+        "description": "External cloud endpoint for command/control and telemetry exchange.",
+        "ports": [
+          {
+            "id": "hld_cloud::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_cloud::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "hld_role": "cloud"
+        },
+        "visual": {
+          "x": 0.0,
+          "y": -232.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "hld_esp32",
+        "node_type": "system_init",
+        "label": "ESP32 Main Controller",
+        "description": "Main firmware control node coordinating peripherals, storage, and connectivity.",
+        "ports": [
+          {
+            "id": "hld_esp32::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_esp32::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "hld_role": "controller"
+        },
+        "visual": {
+          "x": 0.0,
+          "y": 32.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "hld__i2c",
+        "node_type": "i2c_device",
+        "label": "APP I2C Device",
+        "description": "Represents an I2C peripheral with mapped bus pins.",
+        "ports": [
+          {
+            "id": "hld__i2c::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld__i2c::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "sda_pin": 21,
+          "scl_pin": 22,
+          "address": "0x68",
+          "clock_hz": 400000,
+          "hld_role": "peripheral",
+          "source_node_id": "_i2c"
+        },
+        "execution": {},
+        "visual": {
+          "x": 0.0,
+          "y": 296.0,
+          "layer": 0
+        }
+      },
+      {
+        "id": "hld_i2c_device",
+        "node_type": "i2c_device",
+        "label": "I2C Device",
+        "description": "Represents an I2C peripheral with mapped bus pins.",
+        "ports": [
+          {
+            "id": "hld_i2c_device::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_i2c_device::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "sda_pin": 21,
+          "scl_pin": 22,
+          "address": "0x68",
+          "clock_hz": 100000,
+          "hld_role": "peripheral",
+          "source_node_id": "i2c_device"
+        },
+        "execution": {},
+        "visual": {
+          "x": 430.0,
+          "y": -496.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "hld_storage_manager",
+        "node_type": "storage_manager",
+        "label": "Storage Manager",
+        "description": "Persists runtime state and configuration data.",
+        "ports": [
+          {
+            "id": "hld_storage_manager::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_storage_manager::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "backend": "nvs",
+          "namespace": "app",
+          "hld_role": "storage",
+          "source_node_id": "storage_manager"
+        },
+        "execution": {},
+        "visual": {
+          "x": 430.0,
+          "y": -232.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "hld_wifi",
+        "node_type": "wifi_manager",
+        "label": "WiFi",
+        "description": "Manages Wi-Fi connectivity for SSID `ROHIT2IN1`.",
+        "ports": [
+          {
+            "id": "hld_wifi::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_wifi::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "mode": "station",
+          "ssid": "ROHIT2IN1",
+          "password": "Rohit0707",
+          "hld_role": "connectivity",
+          "source_node_id": "wifi"
+        },
+        "execution": {},
+        "visual": {
+          "x": 430.0,
+          "y": 32.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "hld_app_task",
+        "node_type": "rtos_task",
+        "label": "Task app_task",
+        "description": "Executes RTOS loop logic for app_task.",
+        "ports": [
+          {
+            "id": "hld_app_task::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_app_task::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "app_task",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 20.0,
+          "hld_role": "runtime",
+          "source_node_id": "app_task"
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 20.0
+        },
+        "visual": {
+          "x": 430.0,
+          "y": 296.0,
+          "layer": 1
+        }
+      },
+      {
+        "id": "hld_imu_50hz",
+        "node_type": "rtos_task",
+        "label": "Task imu_50hz",
+        "description": "Executes RTOS loop logic for imu_50hz.",
+        "ports": [
+          {
+            "id": "hld_imu_50hz::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_imu_50hz::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "imu_50hz",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0,
+          "hld_role": "runtime",
+          "source_node_id": "imu_50hz"
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 860.0,
+          "y": -364.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "hld_http_alert",
+        "node_type": "rtos_task",
+        "label": "Task http_alert",
+        "description": "Executes RTOS loop logic for http_alert.",
+        "ports": [
+          {
+            "id": "hld_http_alert::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_http_alert::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "task_name": "http_alert",
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0,
+          "hld_role": "alert",
+          "source_node_id": "http_alert"
+        },
+        "execution": {
+          "priority": 5,
+          "stack_size": 4096,
+          "period_ms": 0.0
+        },
+        "visual": {
+          "x": 860.0,
+          "y": -100.0,
+          "layer": 2
+        }
+      },
+      {
+        "id": "hld_internet",
+        "node_type": "internet",
+        "label": "Internet",
+        "description": "External network backbone used for cloud transport.",
+        "ports": [
+          {
+            "id": "hld_internet::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_internet::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "hld_role": "internet"
+        },
+        "visual": {
+          "x": 860.0,
+          "y": 164.0,
+          "layer": 2
+        }
+      }
+    ],
+    "connections": [
+      [
+        "hld_user::hld::out",
+        "hld_cloud::hld::in"
+      ],
+      [
+        "hld_cloud::hld::out",
+        "hld_user::hld::in"
+      ],
+      [
+        "hld_cloud::hld::out",
+        "hld_esp32::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_cloud::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld__i2c::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_i2c_device::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_storage_manager::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_wifi::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_app_task::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_imu_50hz::hld::in"
+      ],
+      [
+        "hld_esp32::hld::out",
+        "hld_http_alert::hld::in"
+      ],
+      [
+        "hld_app_task::hld::out",
+        "hld__i2c::hld::in"
+      ],
+      [
+        "hld_app_task::hld::out",
+        "hld_i2c_device::hld::in"
+      ],
+      [
+        "hld_app_task::hld::out",
+        "hld_storage_manager::hld::in"
+      ],
+      [
+        "hld_app_task::hld::out",
+        "hld_wifi::hld::in"
+      ],
+      [
+        "hld_imu_50hz::hld::out",
+        "hld__i2c::hld::in"
+      ],
+      [
+        "hld_imu_50hz::hld::out",
+        "hld_i2c_device::hld::in"
+      ],
+      [
+        "hld_imu_50hz::hld::out",
+        "hld_storage_manager::hld::in"
+      ],
+      [
+        "hld_wifi::hld::out",
+        "hld_internet::hld::in"
+      ],
+      [
+        "hld_cloud::hld::out",
+        "hld_internet::hld::in"
+      ]
+    ],
+    "layout": {
+      "orientation": "horizontal",
+      "node_width": 280.0,
+      "layer_gap": 150.0,
+      "node_gap": 64.0
+    },
+    "runtime_metadata": {
+      "telemetry_enabled": false,
+      "overlays": {
+        "hld_edge_labels": {
+          "hld_user::hld::out|hld_cloud::hld::in": "View Data / Configure",
+          "hld_cloud::hld::out|hld_user::hld::in": "View Data / Configure",
+          "hld_cloud::hld::out|hld_esp32::hld::in": "MQTT / API Messages",
+          "hld_esp32::hld::out|hld_cloud::hld::in": "MQTT / API Messages",
+          "hld_esp32::hld::out|hld__i2c::hld::in": "Peripheral I/O",
+          "hld_esp32::hld::out|hld_i2c_device::hld::in": "Peripheral I/O",
+          "hld_esp32::hld::out|hld_storage_manager::hld::in": "Read / Write Config",
+          "hld_esp32::hld::out|hld_wifi::hld::in": "Network Management",
+          "hld_esp32::hld::out|hld_app_task::hld::in": "Firmware Logic",
+          "hld_esp32::hld::out|hld_imu_50hz::hld::in": "Firmware Logic",
+          "hld_esp32::hld::out|hld_http_alert::hld::in": "Alert Events",
+          "hld_app_task::hld::out|hld__i2c::hld::in": "Control APP I2C Device",
+          "hld_app_task::hld::out|hld_i2c_device::hld::in": "Control I2C Device",
+          "hld_app_task::hld::out|hld_storage_manager::hld::in": "Control Storage Manager",
+          "hld_app_task::hld::out|hld_wifi::hld::in": "Control WiFi",
+          "hld_imu_50hz::hld::out|hld__i2c::hld::in": "Data Flow",
+          "hld_imu_50hz::hld::out|hld_i2c_device::hld::in": "Data Flow",
+          "hld_imu_50hz::hld::out|hld_storage_manager::hld::in": "Data Flow",
+          "hld_wifi::hld::out|hld_internet::hld::in": "Internet Access",
+          "hld_cloud::hld::out|hld_internet::hld::in": "Cloud Route"
+        },
+        "diagram_view": "hld",
+        "hld_projection": "architecture"
+      }
+    }
+  },
+  "mermaid": "graph TD\n    hld_user[\"Mobile App / Web Dashboard\"]\n    hld_cloud[\"MQTT Broker / Cloud Service\"]\n    hld_esp32[\"ESP32 Main Controller\"]\n    hld__i2c[\"APP I2C Device\"]\n    hld_i2c_device[\"I2C Device\"]\n    hld_storage_manager[\"Storage Manager\"]\n    hld_wifi[\"WiFi\"]\n    hld_app_task[\"Task app_task\"]\n    hld_imu_50hz[\"Task imu_50hz\"]\n    hld_http_alert[\"Task http_alert\"]\n    hld_internet[(Internet)]\n    hld_user <-->|View Data / Configure| hld_cloud\n    hld_cloud <-->|MQTT / API Messages| hld_esp32\n    hld_esp32 -->|Peripheral I/O| hld__i2c\n    hld_esp32 -->|Peripheral I/O| hld_i2c_device\n    hld_esp32 -->|Read / Write Config| hld_storage_manager\n    hld_esp32 -->|Network Management| hld_wifi\n    hld_esp32 -->|Firmware Logic| hld_app_task\n    hld_esp32 -->|Firmware Logic| hld_imu_50hz\n    hld_esp32 -->|Alert Events| hld_http_alert\n    hld_app_task -->|Control APP I2C Device| hld__i2c\n    hld_app_task -->|Control I2C Device| hld_i2c_device\n    hld_app_task -->|Control Storage Manager| hld_storage_manager\n    hld_app_task -->|Control WiFi| hld_wifi\n    hld_imu_50hz -->|Data Flow| hld__i2c\n    hld_imu_50hz -->|Data Flow| hld_i2c_device\n    hld_imu_50hz -->|Data Flow| hld_storage_manager\n    hld_wifi -->|Internet Access| hld_internet\n    hld_cloud -->|Cloud Route| hld_internet",
+  "title": "High-Level Design"
+}
